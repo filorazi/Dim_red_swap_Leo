@@ -35,6 +35,7 @@ jax.config.update("jax_enable_x64", True)
 import optax 
 
 def main():
+
     param=parse()
     n=100
     X=list(range(n))
@@ -44,17 +45,18 @@ def main():
     #     return np.outer(np.conjugate(data['ground_states'][p]), data['ground_states'][p])
     # X=[get_input_state(x) for x in X]
     X=[data['ground_states'][x] for x in X]
-    
+    print(X[0].size)
 
     n_qubit=param.n_input_qubit
     dvc = qml.device('default.mixed', wires=n_qubit, shots=None)
  
-    set_global( [[-2.0206146e-02  0.0000000e+00  2.6169906e-03 -2.0206146e-02,
+    set_global( 
+            n_qubit,
             param.n_trash_qubit,
             param.n_trash_qubit,
             param.list_op_support[:param.n_trash_qubit],
             param.list_op_support_probs[:param.n_trash_qubit],
-            True,
+            False,
             param.list_op_support_max_range[:param.n_trash_qubit],
             use_jax=param.jax)
     # train_batch_losses={}
@@ -69,7 +71,7 @@ def main():
     # don't overwrite if a file with the same name already exists
     # print(f"Running AE with {param.n_input_qubit} input qubit and {param.n_trash_qubit} trash qubit in batches of {param.batch_size}")
     if param.jax:
-        # ae = JAxutoencoder(param.n_input_qubit,param.n_trash_qubit,dvc,'c11')
+        ae = JAxutoencoder(param.n_input_qubit,param.n_trash_qubit,dvc,'c11')
         opt = optax.adam(param.step_size)
 
     else:
@@ -90,6 +92,8 @@ def main():
     batch_epochs=ae.get_final_epoch()
     weights=ae.best_params()
     i = 0
+    os.makedirs(os.path.dirname(batch_folder), exist_ok=True)
+
     while os.path.exists(batch_folder+f'/loss_train_(8)({8-param.n_trash_qubit})_{i}.npy'):
         i += 1
 
@@ -124,7 +128,7 @@ def main():
     #     # Info file 
 
     # ae.plot_weights()
-    plt.show()
+
     with open(batch_folder+f'/info_(8)({8-param.n_trash_qubit})_{i}.txt','a') as file:
         file.write(f'RUN INFORMATION\n'\
                     f'Input qubits = {param.n_input_qubit}\n'\

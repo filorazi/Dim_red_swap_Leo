@@ -19,7 +19,14 @@ vae_dev_mixed_input=None
 vae_dev_mixed_middle=None
 vae_dev_mixed_output=None
 
-def set_global( num_input_qubits,output_qubits,n_trash_qubits,operator_support,operator_support_probs,operator_translation_invariance_Q,operator_support_max_range,use_jax=True):
+def set_global( num_input_qubits,
+                output_qubits,
+                n_trash_qubits,
+                operator_support,
+                operator_support_probs,
+                operator_translation_invariance_Q,
+                operator_support_max_range,
+                use_jax=True):
     global system_params
     global vae_dev_mixed_input
     global vae_dev_mixed_middle
@@ -46,7 +53,7 @@ def expval_operators_input(state_in, operators):
         return _expval_operators_input(state, operators)
     @qml.qnode(vae_dev_mixed_input,interface='jax' if system_params['use_jax_Q'] else 'autograd')
     def _expval_operators_input(state, operators):
-        # print(state.shape,vae_dev_mixed_input.wires)
+        print(state.shape,vae_dev_mixed_input.wires)
         state_op_expval = []
         qml.QubitDensityMatrix(state, vae_dev_mixed_input.wires)
         return [qml.expval(op) for op in operators]

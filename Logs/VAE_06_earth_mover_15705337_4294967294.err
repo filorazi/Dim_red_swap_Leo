@@ -1,0 +1,68 @@
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/single_run.py", line 179, in <module>
+    main()
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/single_run.py", line 86, in main
+    _=ae.train(X,opt,param.epochs,param.batch_size,val_split=param.val_percentage)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/autoencoder8.py", line 208, in train
+    weights, opt_state, loss_value = train_step(weights, opt_state, X_batch)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/autoencoder8.py", line 195, in train_step
+    loss, grads = jax.value_and_grad(loss_function)(weights)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/EMCost.py", line 395, in _cost_fn_EM
+    expval_input_list_list = expval_Pauli_strings(input_states,
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/EMCost.py", line 144, in expval_Pauli_strings
+    state_op_expval += [expval_operators_input(state, ops)]
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/EMCost.py", line 65, in expval_operators_input
+    return _expval_operators_input(state_in, operators)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/qnode.py", line 905, in __call__
+    return self._impl_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/qnode.py", line 881, in _impl_call
+    res = qml.execute(
+          ^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/execution.py", line 232, in execute
+    results = run(tapes, device, config, inner_transform)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/run.py", line 287, in run
+    results = inner_execute(tapes)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/run.py", line 247, in inner_execute
+    results = device.execute(transformed_tapes, execution_config=execution_config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/modifiers/single_tape_support.py", line 32, in execute
+    results = batch_execute(self, circuits, execution_config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/legacy_facade.py", line 374, in execute
+    return _set_shots(dev, first_shot)(dev.batch_execute)(circuits, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/python-3.11.6-i5k3c6ggftqkzgqyymfbkynpgm2lgjtd/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/_qubit_device.py", line 483, in batch_execute
+    res = self.execute(circuit, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/logging/decorators.py", line 61, in wrapper_entry
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/default_mixed.py", line 853, in execute
+    return super().execute(circuit, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/_qubit_device.py", line 271, in execute
+    self.apply(
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/logging/decorators.py", line 61, in wrapper_entry
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/default_mixed.py", line 868, in apply
+    self._apply_operation(operation)
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/default_mixed.py", line 776, in _apply_operation
+    self._apply_density_matrix(operation.parameters[0], wires)
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/default_mixed.py", line 635, in _apply_density_matrix
+    raise ValueError("Density matrix must be of length (2**wires, 2**wires)")
+ValueError: Density matrix must be of length (2**wires, 2**wires)
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

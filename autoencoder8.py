@@ -78,7 +78,7 @@ class Axutoencoder():
 
 
     def create_ising_state(self,dm1,start=0):
-        qml.QubitStateVector(dm1, wires=range(start,self.__n_qubit_auto+start))
+        qml.StatePrep(dm1, wires=range(start,self.__n_qubit_auto+start))
 
     
 
