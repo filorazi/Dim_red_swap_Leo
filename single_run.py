@@ -51,7 +51,7 @@ def main():
     dvc = qml.device('default.mixed', wires=n_qubit, shots=None)
  
     set_global( 
-            n_qubit,
+            param.n_trash_qubit,
             param.n_trash_qubit,
             param.n_trash_qubit,
             param.list_op_support[:param.n_trash_qubit],
@@ -73,6 +73,7 @@ def main():
     if param.jax:
         ae = JAxutoencoder(param.n_input_qubit,param.n_trash_qubit,dvc,'c11')
         opt = optax.adam(param.step_size)
+
 
     else:
         ae = Axutoencoder(param.n_input_qubit,param.n_trash_qubit,dvc,'c11')
