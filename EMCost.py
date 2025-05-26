@@ -53,7 +53,6 @@ def expval_operators_input(state_in, operators):
         return _expval_operators_input(state, operators)
     @qml.qnode(vae_dev_mixed_input,interface='jax' if system_params['use_jax_Q'] else 'autograd')
     def _expval_operators_input(state, operators):
-        print(state.shape,vae_dev_mixed_input.wires)
         state_op_expval = []
         qml.QubitDensityMatrix(state, vae_dev_mixed_input.wires)
         return [qml.expval(op) for op in operators]
@@ -431,7 +430,7 @@ def cost_fn_EM(X,trainer,input_states):
         for i_state in range(n_states):
             # expval_output_list_list is of qml.ArrayBox type, hence it needs to be transformed to regular numpy arrays
             expval_diff = qml.math.toarray(expval_output_list_list[i_state]) - numpy.array(expval_input_list_list[i_state])
-            expval_diff.at[expval_diff == -0.0].set(0.0)
+            expval_diff[expval_diff == -0.0]=0.0
             lin_prog_problem = cvxpy.Problem(cvxpy.Maximize(expval_diff.T @ w), [P_mx @ cvxpy.abs(w) <= 1.])
             lin_prog_problem.solve()
             
