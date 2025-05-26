@@ -2,7 +2,7 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --time=04:00:00 # Runtime in D-HH:MM:SS
+#SBATCH --time=12:00:00 # Runtime in D-HH:MM:SS
 #SBATCH -o ./Logs/VAE_06_earth_mover_%A_%a.out # File to which STDOUT will be written
 #SBATCH -e ./Logs/VAE_06_earth_mover_%A_%a.err # File to which STDERR will be written
 #SBATCH --mail-type=FAIL # Type of email notification- BEGIN,END,FAIL,ALL

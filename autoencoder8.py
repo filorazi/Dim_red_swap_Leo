@@ -215,12 +215,12 @@ class Axutoencoder():
             else:
                 val_loss.append(1000)
             train_loss.append(np.average(batch_loss,weights=[len(X_batch) for X_batch in [X_train[i:i + batch_size] for i in range(0, len(X_train), batch_size)]]))
-            if epoch > 15:
-                if np.mean(val_loss[-3:])<0.001:
+            if epoch > 100:
+                if np.mean(val_loss[-3:])<0.0001:
                     print(f'\nEarly stop at epoch {epoch} for perfect training')
                     final_epoch = epoch
                     break
-                if np.std(val_loss[-15:])<0.001:
+                if np.std(val_loss[-20:])<0.001:
                     print(f'\nEarly stop at epoch {epoch} for plateau')
                     final_epoch = epoch
                     break
