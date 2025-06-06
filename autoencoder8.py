@@ -197,7 +197,9 @@ class Axutoencoder():
 
             # print(f'grads:\n{grads}')
             updates, opt_state = opt.update(grads, opt_state)
+            print('updates:\n', updates)
             weights = optax.apply_updates(weights, updates)
+            print(weights)
             return weights, opt_state, loss
 
 
