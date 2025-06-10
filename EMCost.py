@@ -253,8 +253,9 @@ def get_site_combinations(n_system_sites:int, operator_support:int, support_prob
         # is at the second site
         arr =  [[0] + list(c) for c in list(itertools.combinations(list(
                 range(1, min(max_rng, n_system_sites))), operator_support-1))]
-        arr += [[1] + list(c) for c in list(itertools.combinations([i%n_system_sites
-                for i in range(2, min(max_rng+1, n_system_sites+1))], operator_support-1))]
+        if n_system_sites>1:
+            arr += [[1] + list(c) for c in list(itertools.combinations([i%n_system_sites
+                    for i in range(2, min(max_rng+1, n_system_sites+1))], operator_support-1))]
 
         # however, we shift the generated array around by a random vector just
         # to make sure that we are not pushing some unforeseen bias in the network
@@ -300,6 +301,7 @@ def cost_fn_EM(X,trainer,input_states):
         cost = 0.
         n_states = len(X)
         output_dms = jnp.array([trainer(w,x) for x in X])
+
         # return the density matrix of the autoencoder
         # for input_state in input_states:
         #     middle_dm, _, expval_Z_traced_qubits = vae_compress(
@@ -398,9 +400,6 @@ def cost_fn_EM(X,trainer,input_states):
         expval_output_list_list = expval_Pauli_strings(output_dms,
                                                     Pauli_string_lists,
                                                     in_mid_out_Q='output')
-        rounds = lambda x: round(x,10)
-        expval_output_list_list=jnp.array([rounds(x) for x in expval_output_list_list])
-        expval_input_list_list=jnp.array([rounds(x) for x in expval_input_list_list])
 
         # The earth mover distance part of the cost function for each pair of input and output states is
         # max_{w} sum_op w_op * c_op, where c_op = Tr(op @ (out_dm - in_dm))
@@ -430,7 +429,6 @@ def cost_fn_EM(X,trainer,input_states):
         for i_state in range(n_states):
             # expval_output_list_list is of qml.ArrayBox type, hence it needs to be transformed to regular numpy arrays
             expval_diff = qml.math.toarray(expval_output_list_list[i_state]) - numpy.array(expval_input_list_list[i_state])
-            expval_diff[expval_diff == -0.0]=0.0
             lin_prog_problem = cvxpy.Problem(cvxpy.Maximize(expval_diff.T @ w), [P_mx @ cvxpy.abs(w) <= 1.])
             lin_prog_problem.solve()
             

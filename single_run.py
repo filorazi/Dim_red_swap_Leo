@@ -56,7 +56,7 @@ def main():
             param.n_trash_qubit,
             param.list_op_support[:param.n_trash_qubit],
             param.list_op_support_probs[:param.n_trash_qubit],
-            False,
+            True,
             param.list_op_support_max_range[:param.n_trash_qubit],
             use_jax=param.jax)
     # train_batch_losses={}
