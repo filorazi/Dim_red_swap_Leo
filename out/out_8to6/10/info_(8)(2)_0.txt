@@ -3,12 +3,12 @@ Input qubits = 8
 Trash qubit = 6
 Seed = 42
 Optimizer = Optax.adam(stepsize=0.2)
-Epochs = 101
+Epochs = 150
 Batch sizes = 10
 Loss name = EMdistance
 Val_percentage = 0.2
-Min val loss found = 6.196056530086618
-Exec (training) time = 24865.231365680695
+Min val loss found = 0.6156949155503989
+Exec (training) time = 30506.0116045475
 Support list =[1, 2, 3]
 Support list probs=[1.0, 1.0, 1.0]
 Support list max range = [1, 5, 3]
