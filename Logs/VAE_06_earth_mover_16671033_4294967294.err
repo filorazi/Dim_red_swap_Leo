@@ -1,0 +1,2 @@
+/var/spool/slurmd/job16671033/slurm_script: line 48: 2902956 Killed                  python single_run.py -ni ${NUMINPUTQUBITS} -nt ${NUMMIDDLEQUBIT} -b ${BATCHSIZE} -e ${EPOCHS} -v ${VALSPLIT} -sz ${OPTSTEP} -of ${OUT} -ls ${LISTOPSUPPORT} -lp ${LISTOPSUPPORTPROBS} -lr ${LISTOPSUPPORTMAXRANGE} -njx
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=16671033.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
