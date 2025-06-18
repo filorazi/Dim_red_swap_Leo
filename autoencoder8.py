@@ -68,7 +68,7 @@ class Axutoencoder():
         self.__train_loss={}
         self.__val_loss= {}
         self.__sp = self.__circuits['isin']['func']
-        self.__loss_name='EMdistance'
+        self.__loss_name='fidelity'
         self.__loss= self.__losses[self.__loss_name]['func']
         # self.__data = get_data(self.__n_qubit_auto)
 
@@ -189,7 +189,11 @@ class Axutoencoder():
 
         
         def train_step(weights,opt_state,data):
-            loss_function = self.__loss(data,trainer,create_dm([[1]+[0]*(2**self.__n_qubit_trash-1)]*len(data)))
+            if self.__loss_name=='fidelity':
+
+                loss_function = self.__loss(data,trainer,create_dm([[1]+[0]*(2**self.__n_qubit_trash-1)]*len(data)))
+            else:
+                loss_function = self.__loss(data,trainer,create_dm([[1]+[0]*(2**self.__n_qubit_trash-1)]*len(data)))
             # print(loss_function(weights))
             
             loss, grads = jax.value_and_grad(loss_function)(weights)
