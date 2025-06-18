@@ -5,10 +5,10 @@ Seed = 42
 Optimizer = Optax.adam(stepsize=0.2)
 Epochs = 150
 Batch sizes = 5
-Loss name = EMdistance
+Loss name = fidelity
 Val_percentage = 0.2
-Min val loss found = 0.500645296192798
-Exec (training) time = 33674.75511574745
+Min val loss found = 0.10499918748273439
+Exec (training) time = 13851.991197109222
 Support list =[1, 2, 3]
 Support list probs=[1.0, 1.0, 1.0]
 Support list max range = [1, 5, 3]

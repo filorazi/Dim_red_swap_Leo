@@ -30,9 +30,9 @@ def block(arg):
 def create_dm(sv):
     return [jnp.outer(jnp.conjugate(jnp.array(k)),jnp.array(k) )for k in sv]
 
-def fidelity(X,trainer,input_state,n_qubit_auto,n_qubit_trash):
+def fidelity(X,trainer,input_state):
     def _fidelity(w):
-        output_dms =jnp.array([reduce_dm(trainer(w,x),range(n_qubit_trash, n_qubit_trash+n_qubit_auto)) for x in X])
+        output_dms =jnp.array([trainer(w,x) for x in X])
         fid=[1-qml.math.fidelity(a,b, check_state=True) for a,b in zip(output_dms,input_state)]
         return jnp.mean(jnp.array(fid))
     return _fidelity
