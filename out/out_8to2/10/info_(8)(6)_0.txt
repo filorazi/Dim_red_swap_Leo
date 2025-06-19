@@ -1,0 +1,16 @@
+RUN INFORMATION
+Input qubits = 8
+Trash qubit = 2
+Seed = 42
+Optimizer = Optax.adam(stepsize=0.2)
+Epochs = 25
+Batch sizes = 10
+Loss name = fidelity
+Val_percentage = 0.2
+Min val loss found = 0.032339941308908396
+Exec (training) time = 2548.295687198639
+Support list =[1, 2]
+Support list probs=[1.0, 1.0]
+Support list max range = [1, 5]
+Jax = False
+Output files = /leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/out/out_8to2/10/loss_train_(8)(6)_0, /leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/out/out_8to2/10/loss_val(8)(6)_0, /leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/out/out_8to2/10/weights(8)(6)_0
