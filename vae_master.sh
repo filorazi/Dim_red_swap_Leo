@@ -1,5 +1,5 @@
 #!/bin/sh
-for i in $(seq 1 2); do
+for i in $(seq 1 4); do
 for nmq in $(seq 1 7); do
     sbatch --export=NUMMIDDLEQUBIT=$nmq,ITERATION=$i vae_agent.sh
 
