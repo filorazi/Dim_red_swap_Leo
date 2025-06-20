@@ -289,6 +289,10 @@ class Axutoencoder():
     def set_weights(self,param):
         self.__set_weights= param
     
+    def set_weights_loss(self,param,loss):
+        self.__set_weights= param
+        self.__train_loss=loss
+
     def load(self,path):
         self.__set_weights=np.load(path+'/weights.npy')
         self.__train_loss=np.load(path+'/train_loss.npy')
