@@ -1,0 +1,67 @@
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/_legacy_device.py", line 388, in map_wires
+    mapped_wires = wires.map(self.wire_map)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/wires.py", line 325, in map
+    raise WireError(f"No mapping for wire label {w} specified in wire map {wire_map}.")
+pennylane.wires.WireError: No mapping for wire label 12 specified in wire map OrderedDict([(0, 0), (1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/reconstruction_fidelity.py", line 89, in <module>
+    main()
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/reconstruction_fidelity.py", line 73, in main
+    fidel= qml.math.fidelity( circ(ae,X[i]),np.outer(X[i], np.conj(X[i])))
+                              ^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/qnode.py", line 905, in __call__
+    return self._impl_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/qnode.py", line 881, in _impl_call
+    res = qml.execute(
+          ^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/execution.py", line 232, in execute
+    results = run(tapes, device, config, inner_transform)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/run.py", line 287, in run
+    results = inner_execute(tapes)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/workflow/run.py", line 247, in inner_execute
+    results = device.execute(transformed_tapes, execution_config=execution_config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/modifiers/single_tape_support.py", line 32, in execute
+    results = batch_execute(self, circuits, execution_config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/legacy_facade.py", line 374, in execute
+    return _set_shots(dev, first_shot)(dev.batch_execute)(circuits, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/prod/spack/5.2/install/0.21/linux-rhel8-icelake/gcc-8.5.0/python-3.11.6-i5k3c6ggftqkzgqyymfbkynpgm2lgjtd/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/_qubit_device.py", line 483, in batch_execute
+    res = self.execute(circuit, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/logging/decorators.py", line 61, in wrapper_entry
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/default_mixed.py", line 853, in execute
+    return super().execute(circuit, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/_qubit_device.py", line 309, in execute
+    results = self.statistics(stat_circuit)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/_qubit_device.py", line 695, in statistics
+    state = self.access_state(wires=obs.wires)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/_qubit_device.py", line 827, in access_state
+    density_matrix = self.density_matrix(wires)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/logging/decorators.py", line 61, in wrapper_entry
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/default_mixed.py", line 355, in density_matrix
+    wires = self.map_wires(wires)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/devices/_legacy_device.py", line 390, in map_wires
+    raise WireError(
+pennylane.wires.WireError: Did not find some of the wires Wires([4, 5, 6, 7, 8, 9, 10, 11, 12]) on device with wires Wires([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]).

@@ -48,29 +48,43 @@ def main():
     X=[data['ground_states'][x] for x in range(100)]
 
 
-    res = pd.DataFrame(columns=['vloss','tloss','fidelity','file','train_type','mq','data_idx'])
-    for mq in range(4,8):
+    for mq in range(7,0,-1):
         for model in binder_em[mq]:
+            res = pd.DataFrame(columns=['vloss','tloss','fidelity','file','train_type','mq','data_idx'])
+
             n_qubit = 8
             t_qubit = n_qubit-mq
-            dvc = qml.device('default.mixed', wires=n_qubit+t_qubit, shots=None)
-            @qml.qnode(dvc)
-            def circ(ae,dm1):
-                qml.StatePrep(dm1, wires=range(0,n_qubit))
-                wire_map=dict(zip(list(range(t_qubit)),list(range(n_qubit,n_qubit+t_qubit))))
-                ae.get_cirq(0)
-                qml.adjoint(qml.map_wires(ae.get_cirq, wire_map))(0)
-                return qml.density_matrix(list(range(t_qubit, len(dvc.wires)+1)))
+            def encoder_decoder(ae,dm1):
+                dvc2 = qml.device('default.mixed', wires=n_qubit, shots=None)
+                
+                @qml.qnode(dvc2)
+                def encoder(ae,state):
+                    qml.StatePrep(state, wires=range(0,n_qubit))
+                    ae.get_cirq(0)
+                    return qml.density_matrix(list(range(t_qubit, len(dvc2.wires))))
 
-            dvc = qml.device('default.mixed', wires=n_qubit, shots=None)
-            ae = Axutoencoder(n_qubit,t_qubit,dvc,'c11')
+                dvc3 = qml.device('default.mixed', wires=n_qubit, shots=None)
+
+                @qml.qnode(dvc3)
+                def decoder(ae,dm):
+                    qml.QubitDensityMatrix(dm, wires=range(t_qubit,len(dvc2.wires)))
+                    qml.adjoint(ae.get_cirq)(0)
+                    return qml.state()
+
+            return decoder(ae,encoder(ae,dm1))
+
+        
+            dvc1 = qml.device('default.mixed', wires=n_qubit, shots=None)
+            ae = Axutoencoder(n_qubit,t_qubit,dvc1,'c11')
             ae.set_layers(3)
             ae.set_weights_loss(np.load(model[0]), np.load(model[1]))
             # qml.draw_mpl(circ)(ae,X[0])
             # fidel = []
-            for i in range(100):
+            for i in range(0,100,8):
                 # fidel.append(qml.math.fidelity( circ(ae,X[i]),np.outer(X[i], np.conj(X[i]))))
-                fidel= qml.math.fidelity( circ(ae,X[i]),np.outer(X[i], np.conj(X[i])))
+                print(encoder_decoder(ae,X[i]))
+                return 0
+                fidel= qml.math.fidelity( encoder_decoder(ae,X[i]),np.outer(X[i], np.conj(X[i])))
                 timeindex = np.argmin(np.load(model[2]))+1
                 vloss = np.min(np.load(model[2]))
                 tloss = np.min(np.load(model[1]))
@@ -82,8 +96,8 @@ def main():
                     'mq':mq,
                     'data_idx':i}
                 res= pd.concat([res,pd.DataFrame([d])])
-
-    res.to_csv('./reconstruction_results.csv')
+            print(f'model {model} completed')
+            res.to_csv(f'./reconstruction_results_{mq}_{model[3][7:-4]}.csv')
 
 if __name__ == '__main__':
     main()
