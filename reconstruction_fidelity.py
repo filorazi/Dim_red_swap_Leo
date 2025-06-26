@@ -48,7 +48,7 @@ def main():
     X=[data['ground_states'][x] for x in range(100)]
 
 
-    for mq in range(7,0,-1):
+    for mq in range(3,0,-1):
         for model in binder_em[mq]:
             res = pd.DataFrame(columns=['vloss','tloss','fidelity','file','train_type','mq','data_idx'])
 
@@ -71,7 +71,7 @@ def main():
                     qml.adjoint(ae.get_cirq)(0)
                     return qml.state()
 
-            return decoder(ae,encoder(ae,dm1))
+                return decoder(ae,encoder(ae,dm1))
 
         
             dvc1 = qml.device('default.mixed', wires=n_qubit, shots=None)
@@ -82,8 +82,6 @@ def main():
             # fidel = []
             for i in range(0,100,8):
                 # fidel.append(qml.math.fidelity( circ(ae,X[i]),np.outer(X[i], np.conj(X[i]))))
-                print(encoder_decoder(ae,X[i]))
-                return 0
                 fidel= qml.math.fidelity( encoder_decoder(ae,X[i]),np.outer(X[i], np.conj(X[i])))
                 timeindex = np.argmin(np.load(model[2]))+1
                 vloss = np.min(np.load(model[2]))
