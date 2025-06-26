@@ -1,3 +1,0 @@
-/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/reconstruction_fidelity.py:84: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
-  res= pd.concat([res,pd.DataFrame([d])])
-slurmstepd: error: *** JOB 16949843 ON lrdn4990 CANCELLED AT 2025-06-24T05:41:15 DUE TO TIME LIMIT ***

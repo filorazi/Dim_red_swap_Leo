@@ -48,8 +48,8 @@ def main():
     X=[data['ground_states'][x] for x in range(100)]
 
 
-    for mq in range(3,0,-1):
-        for model in binder_em[mq]:
+    for mq in range(7,0,-1):
+        for model in binder_fi[mq]:
             res = pd.DataFrame(columns=['vloss','tloss','fidelity','file','train_type','mq','data_idx'])
 
             n_qubit = 8
@@ -80,7 +80,7 @@ def main():
             ae.set_weights_loss(np.load(model[0]), np.load(model[1]))
             # qml.draw_mpl(circ)(ae,X[0])
             # fidel = []
-            for i in range(0,100,8):
+            for i in range(0,100,4):
                 # fidel.append(qml.math.fidelity( circ(ae,X[i]),np.outer(X[i], np.conj(X[i]))))
                 fidel= qml.math.fidelity( encoder_decoder(ae,X[i]),np.outer(X[i], np.conj(X[i])))
                 timeindex = np.argmin(np.load(model[2]))+1
