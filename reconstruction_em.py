@@ -80,22 +80,36 @@ def main():
             ae.set_weights_loss(np.load(model[0]), np.load(model[1]))
             # qml.draw_mpl(circ)(ae,X[0])
             # fidel = []
+            list_op_support=[1,2,3]
+            list_op_support_probs=[1., 1., 1.]
+            list_op_support_max_range=[1, 5, 3]
+            i =1
+            set_global( n_qubit,
+                n_qubit,
+                t_qubit,
+                list_op_support[:mq],
+                list_op_support_probs[:mq],
+                False,
+                list_op_support_max_range[:mq],
+                use_jax=False)
+
             for i in range(0,100,4):
                 # fidel.append(qml.math.fidelity( circ(ae,X[i]),np.outer(X[i], np.conj(X[i]))))
-                fidel= qml.math.fidelity( encoder_decoder(ae,X[i]),np.outer(X[i], np.conj(X[i])))
+                EM_dist= cost__EM( [np.outer(X[i], np.conj(X[i]))])([encoder_decoder(ae,X[i])])
+                print(EM_dist)
                 timeindex = np.argmin(np.load(model[2]))+1
                 vloss = np.min(np.load(model[2]))
                 tloss = np.min(np.load(model[1]))
                 d = {'vloss':vloss,
                     'tloss':tloss,
-                    'fidelity':fidel,
+                    'EM_dist':EM_dist,
                     'file':model[3],
                     'train_type':'fi',
                     'mq':mq,
                     'data_idx':i}
                 res= pd.concat([res,pd.DataFrame([d])])
             print(f'model {model} completed')
-            res.to_csv(f'./reconstruction_results_{mq}_{model[3][7:-4]}.csv')
+            res.to_csv(f'./reconstruction_em_results_{mq}_{model[3][7:-4]}.csv')
 
 if __name__ == '__main__':
     main()
