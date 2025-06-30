@@ -49,7 +49,7 @@ def main():
 
 
     for mq in range(7,0,-1):
-        for model in binder_fi[mq]:
+        for model in binder_em[mq]:
             res = pd.DataFrame(columns=['vloss','tloss','fidelity','file','train_type','mq','data_idx'])
 
             n_qubit = 8
