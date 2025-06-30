@@ -69,7 +69,7 @@ class Axutoencoder():
         self.__train_loss={}
         self.__val_loss= {}
         self.__sp = self.__circuits['isin']['func']
-        self.__loss_name='fidelity'
+        self.__loss_name='mixed'
         self.__loss= self.__losses[self.__loss_name]['func']
         # self.__data = get_data(self.__n_qubit_auto)
 

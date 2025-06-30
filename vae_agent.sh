@@ -3,8 +3,8 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=12:00:00 # Runtime in D-HH:MM:SS
-#SBATCH -o ./Logs/VAE_06_earth_mover_%A_%a.out # File to which STDOUT will be written
-#SBATCH -e ./Logs/VAE_06_earth_mover_%A_%a.err # File to which STDERR will be written
+#SBATCH -o ./Logs/VAE_mixed_%A_%a.out # File to which STDOUT will be written
+#SBATCH -e ./Logs/VAE_mixed_%A_%a.err # File to which STDERR will be written
 #SBATCH --mail-type=FAIL # Type of email notification- BEGIN,END,FAIL,ALL
 #SBATCH --mail-user=filippo.orazi2@unibo.it # Email to which notifications will be sent
 #SBATCH --account=IscrC_DRST
@@ -21,7 +21,7 @@ export TASK_ID=$SLURM_ARRAY_TASK_ID
 export JOB_ID=$SLURM_ARRAY_JOB_ID
 export JID=$SLURM_JOB_ID
 
-BATCHSIZE=10
+BATCHSIZE=5
 EPOCHS=150
 LISTOPSUPPORT="1 2 3"
 LISTOPSUPPORTPROBS="1. 1. 1."
