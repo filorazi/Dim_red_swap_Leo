@@ -62,7 +62,8 @@ class Axutoencoder():
         }
         self.__losses={
             'fidelity': {'func':fidelity},
-            'EMdistance': {'func': cost_fn_EM}
+            'EMdistance': {'func': cost_fn_EM},
+            'mixed': {'func':mix_loss},
 
         }
         self.__train_loss={}
@@ -197,7 +198,7 @@ class Axutoencoder():
             # print(loss_function(weights))
             
             loss, grads = jax.value_and_grad(loss_function)(weights)
-            # print(f'loss:\n{loss}')
+            print(f'loss:\n{loss}')
 
             # print(f'grads:\n{grads}')
             updates, opt_state = opt.update(grads, opt_state)

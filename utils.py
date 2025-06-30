@@ -21,6 +21,8 @@ from pennylane import ApproxTimeEvolution
 from ipywidgets import interactive
 from pennylane.math import reduce_dm
 from jax import numpy as jnp
+from EMCost import *
+
 
 def block(arg):
     print('='*50)
@@ -44,6 +46,19 @@ def get_GHZ_state_matrix(n_qubit,phase=0):
 
 def get_GHZ_state_vector(n_qubit,phase=0):
     return jnp.array([1]+[0]*(2**n_qubit-2)+[jnp.exp(1j*phase)])*(1/jnp.sqrt(2))
+
+def mix_loss(X,trainer,input_state):
+    fid = fidelity(X,trainer,input_state)
+        
+    em = cost_fn_EM(X,trainer,input_state)
+
+    def _mix_loss(w):
+        fidelity = fid(w)
+        wasserstein = em(w)
+        alpha, beta = 0.7, 0.3
+
+        return fidelity*alpha+wasserstein*beta
+    return _mix_loss
 
 
 
