@@ -6,6 +6,7 @@ from autoencoder8 import *
 def main():
     fid_fold = 'out_fi'
     emd_fold = 'out_em'
+    mix_fold = 'out_mix'
 
     binder_fi = {}
 
@@ -42,6 +43,23 @@ def main():
                     vloss_file = os.path.join(batchfolder_path, f'loss_val{append}npy')
                     binder_em[mq].append((weight_file, tloss_file,vloss_file,file))
 
+    binder_mix = {}
+
+    for subfolder in os.listdir(mix_fold):
+        mq = int(subfolder[4])-int(subfolder[-1])
+        subfolder_path = os.path.join(fid_fold, subfolder)
+        binder_mix[mq]=[]
+        for batchfolder in os.listdir(subfolder_path):
+            batchfolder_path = os.path.join(subfolder_path, batchfolder)
+            for file in os.listdir(batchfolder_path):
+                file_path= os.path.join(batchfolder_path, file)
+                if 'weights' in file:
+                    weight_file = os.path.join(batchfolder_path, file)
+                    append = file[7:-3]
+                    tloss_file = os.path.join(batchfolder_path, f'loss_train_{append}npy')
+                    vloss_file = os.path.join(batchfolder_path, f'loss_val{append}npy')
+                    binder_mix[mq].append((weight_file, tloss_file,vloss_file,file))
+
 
 
     data = get_data(8)
@@ -49,7 +67,10 @@ def main():
 
 
     for mq in range(7,0,-1):
-        for model in binder_fi[mq]:
+        if mq not in binder_mix.keys():
+            continue
+        for model in binder_mix[mq]:
+
             res = pd.DataFrame(columns=['vloss','tloss','fidelity','file','train_type','mq','data_idx'])
 
             n_qubit = 8
