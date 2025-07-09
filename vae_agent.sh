@@ -2,7 +2,7 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --time=12:00:00 # Runtime in D-HH:MM:SS
+#SBATCH --time=24:00:00 # Runtime in D-HH:MM:SS
 #SBATCH -o ./Logs/VAE_mixed_%A_%a.out # File to which STDOUT will be written
 #SBATCH -e ./Logs/VAE_mixed_%A_%a.err # File to which STDERR will be written
 #SBATCH --mail-type=FAIL # Type of email notification- BEGIN,END,FAIL,ALL
@@ -45,7 +45,7 @@ echo 'NO JAX'
 OUT_BASE=/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/out
 OUT="${OUT_BASE}/out_8to${NUMMIDDLEQUBIT}"  # Unique output file for each job
 
-python single_run.py -ni ${NUMINPUTQUBITS} -nt ${NUMMIDDLEQUBIT} -b ${BATCHSIZE} -e ${EPOCHS} -v ${VALSPLIT} -sz ${OPTSTEP} -of ${OUT} -ls ${LISTOPSUPPORT}  -lp ${LISTOPSUPPORTPROBS}  -lr ${LISTOPSUPPORTMAXRANGE} -njx
+python single_run.py -ni ${NUMINPUTQUBITS} -nt ${NUMMIDDLEQUBIT} -b ${BATCHSIZE} -e ${EPOCHS} -v ${VALSPLIT} -sz ${OPTSTEP} -of ${OUT} -ls ${LISTOPSUPPORT}  -lp ${LISTOPSUPPORTPROBS}  -lr ${LISTOPSUPPORTMAXRANGE} -jx
 
 echo "job finished"
 wait
