@@ -125,7 +125,7 @@ def main():
                     'tloss':tloss,
                     'EM_dist':EM_dist,
                     'file':model[3],
-                    'train_type':'fi',
+                    'train_type':'em',
                     'mq':mq,
                     'data_idx':i}
                 res= pd.concat([res,pd.DataFrame([d])])
