@@ -29,7 +29,7 @@ def main():
 
     for subfolder in os.listdir(mix_fold):
         mq = int(subfolder[4])-int(subfolder[-1])
-        subfolder_path = os.path.join(fid_fold, subfolder)
+        subfolder_path = os.path.join(mix_fold, subfolder)
         binder_mix[mq]=[]
         for batchfolder in os.listdir(subfolder_path):
             batchfolder_path = os.path.join(subfolder_path, batchfolder)
