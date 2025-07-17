@@ -23,16 +23,16 @@ def parse():
     parser.add_argument('-njx','--no_jax',dest='jax' ,action='store_false', default=False)
     parser.add_argument('-jx','--jax',dest='jax' ,action='store_true',default=False)
     parser.add_argument('-fs','--frac_sampled',dest='frac_sampled' ,type=int, default=1)
-    parser.add_argument('-ls','--list-op-support', required=False, type=int, default=[1,2,3],
+    parser.add_argument('-ls','--list-op-support', required=False, type=int, default=[1,2,3,4],
                         nargs='*', dest='list_op_support',
                         help='operator ranges considered in the earth mover distance')
     parser.add_argument('-id','--jobid',dest='jobid' , default=0)
 
-    parser.add_argument('-lp','--list-op-support-probs', required=False, type=float, default=[1,1,1],
+    parser.add_argument('-lp','--list-op-support-probs', required=False, type=float, default=[1,1,1,1],
                         nargs='*', dest='list_op_support_probs',
                         help='fraction of the operators of samples defined by ' \
                         + '--list-op-support sampled')
-    parser.add_argument('-lr','--list-op-support-max-range', required=False, type=int, default=[1,5,3],
+    parser.add_argument('-lr','--list-op-support-max-range', required=False, type=int, default=[1,5,3,1],
                     nargs='*', dest='list_op_support_max_range',
                     help='max range of operators defined by --list-op-support')
 
