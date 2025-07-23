@@ -4,10 +4,12 @@ import os
 from autoencoder8 import *
 
 def main():
-    fid_fold = 'out_fi'
-    emd_fold = 'out_em'
-    mix_fold = 'out_mix'
 
+    fid_fold = 'out_fi'
+    mix_fold = 'out_mix'
+    emd_fold = 'out_em3'
+    emd2_fold = 'out_em2'
+    emd4_fold = 'out_em4'
     binder_fi = {}
 
     for subfolder in os.listdir(fid_fold):
@@ -60,6 +62,39 @@ def main():
                     vloss_file = os.path.join(batchfolder_path, f'loss_val{append}npy')
                     binder_mix[mq].append((weight_file, tloss_file,vloss_file,file))
 
+    binder_em2   ={}
+    
+    for subfolder in os.listdir(emd2_fold):
+        mq = int(subfolder[4])-int(subfolder[-1])
+        subfolder_path = os.path.join(emd2_fold, subfolder)
+        binder_em2[mq]=[]
+        for batchfolder in os.listdir(subfolder_path):
+            batchfolder_path = os.path.join(subfolder_path, batchfolder)
+            for file in os.listdir(batchfolder_path):
+                file_path= os.path.join(batchfolder_path, file)
+                if 'weights' in file:
+                    weight_file = os.path.join(batchfolder_path, file)
+                    append = file[7:-3]
+                    tloss_file = os.path.join(batchfolder_path, f'loss_train_{append}npy')
+                    vloss_file = os.path.join(batchfolder_path, f'loss_val{append}npy')
+                    binder_em2[mq].append((weight_file, tloss_file,vloss_file,file))
+
+    binder_em4={}
+    for subfolder in os.listdir(emd4_fold):
+        mq = int(subfolder[4])-int(subfolder[-1])
+        subfolder_path = os.path.join(emd4_fold, subfolder)
+        binder_em4[mq]=[]
+        for batchfolder in os.listdir(subfolder_path):
+            batchfolder_path = os.path.join(subfolder_path, batchfolder)
+            for file in os.listdir(batchfolder_path):
+                file_path= os.path.join(batchfolder_path, file)
+                if 'weights' in file:
+                    weight_file = os.path.join(batchfolder_path, file)
+                    append = file[7:-3]
+                    tloss_file = os.path.join(batchfolder_path, f'loss_train_{append}npy')
+                    vloss_file = os.path.join(batchfolder_path, f'loss_val{append}npy')
+                    binder_em4[mq].append((weight_file, tloss_file,vloss_file,file))
+
 
 
     data = get_data(8)
@@ -67,9 +102,9 @@ def main():
 
 
     for mq in range(7,0,-1):
-        if mq not in binder_mix.keys():
+        if mq not in binder_em2.keys():
             continue
-        for model in binder_mix[mq]:
+        for model in binder_em2[mq]:
 
             res = pd.DataFrame(columns=['vloss','tloss','fidelity','file','train_type','mq','data_idx'])
 
@@ -116,7 +151,7 @@ def main():
                     'data_idx':i}
                 res= pd.concat([res,pd.DataFrame([d])])
             print(f'model {model} completed')
-            res.to_csv(f'./reconstruction_results_{mq}_{model[3][7:-4]}.csv')
+            res.to_csv(f'./reconstruction_fidelity_em2/reconstruction_results_{mq}_{model[3][7:-4]}.csv')
 
 if __name__ == '__main__':
     main()

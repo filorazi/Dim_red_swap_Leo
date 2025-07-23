@@ -2,7 +2,7 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --time=12:00:00 # Runtime in D-HH:MM:SS
+#SBATCH --time=1:00:00 # Runtime in D-HH:MM:SS
 #SBATCH -o ./Logs/reco%A_%a.out # File to which STDOUT will be written
 #SBATCH -e ./Logs/reco%A_%a.err # File to which STDERR will be written
 #SBATCH --mail-type=FAIL # Type of email notification- BEGIN,END,FAIL,ALL

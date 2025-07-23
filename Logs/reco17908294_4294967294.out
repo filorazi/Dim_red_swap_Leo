@@ -1,0 +1,27 @@
+Job runs on node:
+lrdn4991
+model ('out_em4/out_8to1/5/weights(8)(7)_1.npy', 'out_em4/out_8to1/5/loss_train_(8)(7)_1.npy', 'out_em4/out_8to1/5/loss_val(8)(7)_1.npy', 'weights(8)(7)_1.npy') completed
+model ('out_em4/out_8to1/5/weights(8)(7)_2.npy', 'out_em4/out_8to1/5/loss_train_(8)(7)_2.npy', 'out_em4/out_8to1/5/loss_val(8)(7)_2.npy', 'weights(8)(7)_2.npy') completed
+model ('out_em4/out_8to1/5/weights(8)(7)_3.npy', 'out_em4/out_8to1/5/loss_train_(8)(7)_3.npy', 'out_em4/out_8to1/5/loss_val(8)(7)_3.npy', 'weights(8)(7)_3.npy') completed
+model ('out_em4/out_8to1/5/weights(8)(7)_0.npy', 'out_em4/out_8to1/5/loss_train_(8)(7)_0.npy', 'out_em4/out_8to1/5/loss_val(8)(7)_0.npy', 'weights(8)(7)_0.npy') completed
+model ('out_em4/out_8to2/5/weights(8)(6)_1.npy', 'out_em4/out_8to2/5/loss_train_(8)(6)_1.npy', 'out_em4/out_8to2/5/loss_val(8)(6)_1.npy', 'weights(8)(6)_1.npy') completed
+model ('out_em4/out_8to2/5/weights(8)(6)_0.npy', 'out_em4/out_8to2/5/loss_train_(8)(6)_0.npy', 'out_em4/out_8to2/5/loss_val(8)(6)_0.npy', 'weights(8)(6)_0.npy') completed
+model ('out_em4/out_8to2/5/weights(8)(6)_2.npy', 'out_em4/out_8to2/5/loss_train_(8)(6)_2.npy', 'out_em4/out_8to2/5/loss_val(8)(6)_2.npy', 'weights(8)(6)_2.npy') completed
+model ('out_em4/out_8to2/5/weights(8)(6)_3.npy', 'out_em4/out_8to2/5/loss_train_(8)(6)_3.npy', 'out_em4/out_8to2/5/loss_val(8)(6)_3.npy', 'weights(8)(6)_3.npy') completed
+model ('out_em4/out_8to3/5/weights(8)(5)_1.npy', 'out_em4/out_8to3/5/loss_train_(8)(5)_1.npy', 'out_em4/out_8to3/5/loss_val(8)(5)_1.npy', 'weights(8)(5)_1.npy') completed
+model ('out_em4/out_8to3/5/weights(8)(5)_0.npy', 'out_em4/out_8to3/5/loss_train_(8)(5)_0.npy', 'out_em4/out_8to3/5/loss_val(8)(5)_0.npy', 'weights(8)(5)_0.npy') completed
+model ('out_em4/out_8to3/5/weights(8)(5)_3.npy', 'out_em4/out_8to3/5/loss_train_(8)(5)_3.npy', 'out_em4/out_8to3/5/loss_val(8)(5)_3.npy', 'weights(8)(5)_3.npy') completed
+model ('out_em4/out_8to3/5/weights(8)(5)_2.npy', 'out_em4/out_8to3/5/loss_train_(8)(5)_2.npy', 'out_em4/out_8to3/5/loss_val(8)(5)_2.npy', 'weights(8)(5)_2.npy') completed
+model ('out_em4/out_8to4/5/weights(8)(4)_0.npy', 'out_em4/out_8to4/5/loss_train_(8)(4)_0.npy', 'out_em4/out_8to4/5/loss_val(8)(4)_0.npy', 'weights(8)(4)_0.npy') completed
+model ('out_em4/out_8to4/5/weights(8)(4)_4.npy', 'out_em4/out_8to4/5/loss_train_(8)(4)_4.npy', 'out_em4/out_8to4/5/loss_val(8)(4)_4.npy', 'weights(8)(4)_4.npy') completed
+model ('out_em4/out_8to4/5/weights(8)(4)_1.npy', 'out_em4/out_8to4/5/loss_train_(8)(4)_1.npy', 'out_em4/out_8to4/5/loss_val(8)(4)_1.npy', 'weights(8)(4)_1.npy') completed
+model ('out_em4/out_8to4/5/weights(8)(4)_5.npy', 'out_em4/out_8to4/5/loss_train_(8)(4)_5.npy', 'out_em4/out_8to4/5/loss_val(8)(4)_5.npy', 'weights(8)(4)_5.npy') completed
+model ('out_em4/out_8to4/5/weights(8)(4)_3.npy', 'out_em4/out_8to4/5/loss_train_(8)(4)_3.npy', 'out_em4/out_8to4/5/loss_val(8)(4)_3.npy', 'weights(8)(4)_3.npy') completed
+model ('out_em4/out_8to4/5/weights(8)(4)_2.npy', 'out_em4/out_8to4/5/loss_train_(8)(4)_2.npy', 'out_em4/out_8to4/5/loss_val(8)(4)_2.npy', 'weights(8)(4)_2.npy') completed
+model ('out_em4/out_8to5/5/weights(8)(3)_0.npy', 'out_em4/out_8to5/5/loss_train_(8)(3)_0.npy', 'out_em4/out_8to5/5/loss_val(8)(3)_0.npy', 'weights(8)(3)_0.npy') completed
+model ('out_em4/out_8to5/5/weights(8)(3)_1.npy', 'out_em4/out_8to5/5/loss_train_(8)(3)_1.npy', 'out_em4/out_8to5/5/loss_val(8)(3)_1.npy', 'weights(8)(3)_1.npy') completed
+model ('out_em4/out_8to6/5/weights(8)(2)_1.npy', 'out_em4/out_8to6/5/loss_train_(8)(2)_1.npy', 'out_em4/out_8to6/5/loss_val(8)(2)_1.npy', 'weights(8)(2)_1.npy') completed
+model ('out_em4/out_8to6/5/weights(8)(2)_0.npy', 'out_em4/out_8to6/5/loss_train_(8)(2)_0.npy', 'out_em4/out_8to6/5/loss_val(8)(2)_0.npy', 'weights(8)(2)_0.npy') completed
+model ('out_em4/out_8to7/5/weights(8)(1)_0.npy', 'out_em4/out_8to7/5/loss_train_(8)(1)_0.npy', 'out_em4/out_8to7/5/loss_val(8)(1)_0.npy', 'weights(8)(1)_0.npy') completed
+model ('out_em4/out_8to7/5/weights(8)(1)_1.npy', 'out_em4/out_8to7/5/loss_train_(8)(1)_1.npy', 'out_em4/out_8to7/5/loss_val(8)(1)_1.npy', 'weights(8)(1)_1.npy') completed
+job finished

@@ -1,0 +1,471 @@
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+/leonardo/home/userexternal/forazi00/dimred_venv/lib/python3.11/site-packages/pennylane/math/interface_utils.py:127: UserWarning: Contains tensors of types {'autograd', 'autoencoder8'}; dispatch will prioritize TensorFlow, PyTorch, and Jax over Autograd. Consider replacing Autograd with vanilla NumPy.
+  warnings.warn(
+slurmstepd: error: *** JOB 17908277 ON lrdn4992 CANCELLED AT 2025-07-23T17:45:48 ***
