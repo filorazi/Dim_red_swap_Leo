@@ -23,7 +23,8 @@ import optax
 class Axutoencoder():
    
 
-    def __init__(self,n_qubit_autoencoder,n_qubit_trash,device,circ='c11',seed=None):
+    def __init__(self,n_qubit_autoencoder,n_qubit_trash,device,circ='c11',seed=None , loss_name='EMdistance'
+):
 
         # if seed is None:
         #     seed=random.random()
@@ -42,7 +43,7 @@ class Axutoencoder():
         self.__circ = circ
         self.__num_params= self.__circuits[circ]['n_par'](n_qubit_autoencoder)
         self.__set_weights =None
-        
+        self.__loss_name=loss_name
         #set parameter to random values for the first stage and 0 to all the following
         # self.__wq=[np.array([random.uniform(0, np.pi) for _ in range(self.__num_params_stages[0])]+[0]*(self.__num_params-self.__num_params_stages[0]), requires_grad=True)]
         # print(f'the device has {len(device.wires)} qubits')
@@ -69,7 +70,6 @@ class Axutoencoder():
         self.__train_loss={}
         self.__val_loss= {}
         self.__sp = self.__circuits['isin']['func']
-        self.__loss_name='mixed'
         self.__loss= self.__losses[self.__loss_name]['func']
         # self.__data = get_data(self.__n_qubit_auto)
 

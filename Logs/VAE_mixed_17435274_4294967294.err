@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/single_run.py", line 180, in <module>
-    main()
-  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/single_run.py", line 74, in main
-    ae = JAxutoencoder(param.n_input_qubit,param.n_trash_qubit,dvc,'c11')
-         ^^^^^^^^^^^^^
-NameError: name 'JAxutoencoder' is not defined. Did you mean: 'Axutoencoder'?

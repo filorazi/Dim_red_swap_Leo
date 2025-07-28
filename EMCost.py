@@ -74,7 +74,7 @@ def sites_to_site_op(sites):
         if ind == len(sites[0]):
             return sites
         return sites_to_site_op_iterative_fn([s[:ind] + [(s[ind], op)] + s[(ind+1):]
-                                             for s in sites for op in ['x', 'y', 'z']],
+                                             for s in sites for op in ['z']],#['x', 'y', 'z']],
                                              ind+1)
     return sites_to_site_op_iterative_fn(sites, 0)
     # Tested and works
