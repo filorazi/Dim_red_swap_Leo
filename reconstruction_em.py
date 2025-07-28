@@ -102,10 +102,10 @@ def main():
 
 
     for mq in range(7,0,-1):
-        if mq not in binder_em2.keys():
+        if mq not in binder_em4.keys():
             continue
 
-        for model in binder_em2[mq]:
+        for model in binder_em4[mq]:
             res = pd.DataFrame(columns=['vloss','tloss','fidelity','file','train_type','mq','data_idx'])
 
             n_qubit = 8
@@ -160,12 +160,12 @@ def main():
                     'tloss':tloss,
                     'EM_dist':EM_dist,
                     'file':model[3],
-                    'train_type':'em',
+                    'train_type':'em4',
                     'mq':mq,
                     'data_idx':i}
                 res= pd.concat([res,pd.DataFrame([d])])
             print(f'model {model} completed')
-            res.to_csv(f'./reconstruction_em_em2/reconstruction_em_results_{mq}_{model[3][7:-4]}.csv')
+            res.to_csv(f'./reconstruction_em_em4/reconstruction_em_results_{mq}_{model[3][7:-4]}.csv')
 
 if __name__ == '__main__':
     main()
