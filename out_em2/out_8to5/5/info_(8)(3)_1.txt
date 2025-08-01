@@ -1,0 +1,16 @@
+RUN INFORMATION
+Input qubits = 8
+Trash qubit = 5
+Seed = 42
+Optimizer = Optax.adam(stepsize=0.2)
+Epochs = 150
+Batch sizes = 5
+Loss name = EMdistance
+Val_percentage = 0.2
+Min val loss found = 0.31451094592476936
+Exec (training) time = 12376.041669845581
+Support list =[1, 2]
+Support list probs=[1.0, 1.0]
+Support list max range = [1, 5]
+Jax = False
+Output files = /leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/out2/out_8to5/5/loss_train_(8)(3)_1, /leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/out2/out_8to5/5/loss_val(8)(3)_1, /leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/out2/out_8to5/5/weights(8)(3)_1

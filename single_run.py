@@ -71,12 +71,12 @@ def main():
     # don't overwrite if a file with the same name already exists
     # print(f"Running AE with {param.n_input_qubit} input qubit and {param.n_trash_qubit} trash qubit in batches of {param.batch_size}")
     if param.jax:
-        ae = Axutoencoder(param.n_input_qubit,param.n_trash_qubit,dvc,'c11')
+        ae = Axutoencoder(param.n_input_qubit,param.n_trash_qubit,dvc,'c11',loss_name='EMdistance')
         opt = optax.adam(param.step_size)
 
 
     else:
-        ae = Axutoencoder(param.n_input_qubit,param.n_trash_qubit,dvc,'c11')
+        ae = Axutoencoder(param.n_input_qubit,param.n_trash_qubit,dvc,'c11',loss_name='EMdistance')
         opt = optax.adam(param.step_size)
 
 

@@ -1,0 +1,852 @@
+Job runs on node:
+lrdn4991
+COSTTYPE=earth-mover
+NUMINPUTQUBITS=8
+NUMMIDDLEQUBIT=1
+EPOCHS=150
+OPTSTEP=0.2
+BATCHSIZE=5
+VALSPLIT=0.2
+LISTOPSUPPORT=1 2 3 4
+LISTOPSUPPORTPROBS=1. 1. 1. 1.
+LISTOPSUPPORTMAXRANGE=1 5 3 3
+NO JAX
+256
+loss:
+1.0466747349199281
+Epoch 1, 	Batch:0, 	Train Loss = 1.046675, 	Val Loss = 0.000000loss:
+0.9066836818624129
+Epoch 1, 	Batch:1, 	Train Loss = 0.976679, 	Val Loss = 0.000000loss:
+0.8452964119816103
+Epoch 1, 	Batch:2, 	Train Loss = 0.932885, 	Val Loss = 0.000000loss:
+0.7669104273807104
+Epoch 1, 	Batch:3, 	Train Loss = 0.891391, 	Val Loss = 0.000000loss:
+0.5123105019916584
+Epoch 1, 	Batch:4, 	Train Loss = 0.815575, 	Val Loss = 0.000000loss:
+0.33768369204684523
+Epoch 1, 	Batch:5, 	Train Loss = 0.735927, 	Val Loss = 0.000000loss:
+0.42423448278295306
+Epoch 1, 	Batch:6, 	Train Loss = 0.691399, 	Val Loss = 0.000000loss:
+0.21678203896941745
+Epoch 1, 	Batch:7, 	Train Loss = 0.632072, 	Val Loss = 0.000000loss:
+0.18812312470859707
+Epoch 1, 	Batch:8, 	Train Loss = 0.582744, 	Val Loss = 0.000000loss:
+0.3917816529606976
+Epoch 1, 	Batch:9, 	Train Loss = 0.563648, 	Val Loss = 0.000000loss:
+0.37182871143434126
+Epoch 1, 	Batch:10, 	Train Loss = 0.546210, 	Val Loss = 0.000000loss:
+0.2386755959075247
+Epoch 1, 	Batch:11, 	Train Loss = 0.520582, 	Val Loss = 0.000000loss:
+0.15458744109382377
+Epoch 1, 	Batch:12, 	Train Loss = 0.492429, 	Val Loss = 0.000000loss:
+0.12215183285090654
+Epoch 1, 	Batch:13, 	Train Loss = 0.465980, 	Val Loss = 0.000000loss:
+0.27785693587045646
+Epoch 1, 	Batch:14, 	Train Loss = 0.453439, 	Val Loss = 0.000000loss:
+0.15305764550886164
+Epoch 1, 	Batch:15, 	Train Loss = 0.434665, 	Val Loss = 0.000000loss:
+0.20454702094472027
+Epoch 2, 	Batch:0, 	Train Loss = 0.204547, 	Val Loss = 0.210569loss:
+0.20552180045253926
+Epoch 2, 	Batch:1, 	Train Loss = 0.205034, 	Val Loss = 0.210569loss:
+0.08629315971036686
+Epoch 2, 	Batch:2, 	Train Loss = 0.165454, 	Val Loss = 0.210569loss:
+0.1761191121136322
+Epoch 2, 	Batch:3, 	Train Loss = 0.168120, 	Val Loss = 0.210569loss:
+0.12228427853066648
+Epoch 2, 	Batch:4, 	Train Loss = 0.158953, 	Val Loss = 0.210569loss:
+0.08679629691081277
+Epoch 2, 	Batch:5, 	Train Loss = 0.146927, 	Val Loss = 0.210569loss:
+0.12161928444604794
+Epoch 2, 	Batch:6, 	Train Loss = 0.143312, 	Val Loss = 0.210569loss:
+0.06716458312222175
+Epoch 2, 	Batch:7, 	Train Loss = 0.133793, 	Val Loss = 0.210569loss:
+0.05322754715107827
+Epoch 2, 	Batch:8, 	Train Loss = 0.124841, 	Val Loss = 0.210569loss:
+0.20164543570885182
+Epoch 2, 	Batch:9, 	Train Loss = 0.132522, 	Val Loss = 0.210569loss:
+0.11960140610509643
+Epoch 2, 	Batch:10, 	Train Loss = 0.131347, 	Val Loss = 0.210569loss:
+0.07987844933958352
+Epoch 2, 	Batch:11, 	Train Loss = 0.127058, 	Val Loss = 0.210569loss:
+0.049596643310253485
+Epoch 2, 	Batch:12, 	Train Loss = 0.121100, 	Val Loss = 0.210569loss:
+0.04941447500185348
+Epoch 2, 	Batch:13, 	Train Loss = 0.115979, 	Val Loss = 0.210569loss:
+0.10380079251339056
+Epoch 2, 	Batch:14, 	Train Loss = 0.115167, 	Val Loss = 0.210569loss:
+0.046610620271650846
+Epoch 2, 	Batch:15, 	Train Loss = 0.110883, 	Val Loss = 0.210569loss:
+0.0719573128445313
+Epoch 3, 	Batch:0, 	Train Loss = 0.071957, 	Val Loss = 0.074685loss:
+0.08864573361346893
+Epoch 3, 	Batch:1, 	Train Loss = 0.080302, 	Val Loss = 0.074685loss:
+0.037647432484957374
+Epoch 3, 	Batch:2, 	Train Loss = 0.066083, 	Val Loss = 0.074685loss:
+0.11229527397520736
+Epoch 3, 	Batch:3, 	Train Loss = 0.077636, 	Val Loss = 0.074685loss:
+0.07788823923740171
+Epoch 3, 	Batch:4, 	Train Loss = 0.077687, 	Val Loss = 0.074685loss:
+0.04399052352166216
+Epoch 3, 	Batch:5, 	Train Loss = 0.072071, 	Val Loss = 0.074685loss:
+0.08293855950913512
+Epoch 3, 	Batch:6, 	Train Loss = 0.073623, 	Val Loss = 0.074685loss:
+0.04097417416279053
+Epoch 3, 	Batch:7, 	Train Loss = 0.069542, 	Val Loss = 0.074685loss:
+0.03434147789613309
+Epoch 3, 	Batch:8, 	Train Loss = 0.065631, 	Val Loss = 0.074685loss:
+0.11661255406018603
+Epoch 3, 	Batch:9, 	Train Loss = 0.070729, 	Val Loss = 0.074685loss:
+0.0896916597458594
+Epoch 3, 	Batch:10, 	Train Loss = 0.072453, 	Val Loss = 0.074685loss:
+0.06220426880758527
+Epoch 3, 	Batch:11, 	Train Loss = 0.071599, 	Val Loss = 0.074685loss:
+0.03283421154778159
+Epoch 3, 	Batch:12, 	Train Loss = 0.068617, 	Val Loss = 0.074685loss:
+0.04262821738913605
+Epoch 3, 	Batch:13, 	Train Loss = 0.066761, 	Val Loss = 0.074685loss:
+0.07829485163512456
+Epoch 3, 	Batch:14, 	Train Loss = 0.067530, 	Val Loss = 0.074685loss:
+0.035953446592422264
+Epoch 3, 	Batch:15, 	Train Loss = 0.065556, 	Val Loss = 0.074685loss:
+0.06516248596103708
+Epoch 4, 	Batch:0, 	Train Loss = 0.065162, 	Val Loss = 0.065530loss:
+0.07510428986940391
+Epoch 4, 	Batch:1, 	Train Loss = 0.070133, 	Val Loss = 0.065530loss:
+0.03026407603042277
+Epoch 4, 	Batch:2, 	Train Loss = 0.056844, 	Val Loss = 0.065530loss:
+0.10236203056263646
+Epoch 4, 	Batch:3, 	Train Loss = 0.068223, 	Val Loss = 0.065530loss:
+0.0625381610468713
+Epoch 4, 	Batch:4, 	Train Loss = 0.067086, 	Val Loss = 0.065530loss:
+0.0317343343056205
+Epoch 4, 	Batch:5, 	Train Loss = 0.061194, 	Val Loss = 0.065530loss:
+0.063420444448683
+Epoch 4, 	Batch:6, 	Train Loss = 0.061512, 	Val Loss = 0.065530loss:
+0.04287509229647514
+Epoch 4, 	Batch:7, 	Train Loss = 0.059183, 	Val Loss = 0.065530loss:
+0.028093905263871555
+Epoch 4, 	Batch:8, 	Train Loss = 0.055728, 	Val Loss = 0.065530loss:
+0.12805728697987098
+Epoch 4, 	Batch:9, 	Train Loss = 0.062961, 	Val Loss = 0.065530loss:
+0.07618616991375579
+Epoch 4, 	Batch:10, 	Train Loss = 0.064163, 	Val Loss = 0.065530loss:
+0.04900787617695844
+Epoch 4, 	Batch:11, 	Train Loss = 0.062901, 	Val Loss = 0.065530loss:
+0.023456358937920065
+Epoch 4, 	Batch:12, 	Train Loss = 0.059866, 	Val Loss = 0.065530loss:
+0.040426050514314305
+Epoch 4, 	Batch:13, 	Train Loss = 0.058478, 	Val Loss = 0.065530loss:
+0.059402596251193526
+Epoch 4, 	Batch:14, 	Train Loss = 0.058539, 	Val Loss = 0.065530loss:
+0.030426801640473445
+Epoch 4, 	Batch:15, 	Train Loss = 0.056782, 	Val Loss = 0.065530loss:
+0.053036383010660014
+Epoch 5, 	Batch:0, 	Train Loss = 0.053036, 	Val Loss = 0.053623loss:
+0.06362320051983657
+Epoch 5, 	Batch:1, 	Train Loss = 0.058330, 	Val Loss = 0.053623loss:
+0.03166272480513225
+Epoch 5, 	Batch:2, 	Train Loss = 0.049441, 	Val Loss = 0.053623loss:
+0.09250313990058995
+Epoch 5, 	Batch:3, 	Train Loss = 0.060206, 	Val Loss = 0.053623loss:
+0.05630340757980551
+Epoch 5, 	Batch:4, 	Train Loss = 0.059426, 	Val Loss = 0.053623loss:
+0.03121473575368831
+Epoch 5, 	Batch:5, 	Train Loss = 0.054724, 	Val Loss = 0.053623loss:
+0.05711346710341904
+Epoch 5, 	Batch:6, 	Train Loss = 0.055065, 	Val Loss = 0.053623loss:
+0.047353219756454006
+Epoch 5, 	Batch:7, 	Train Loss = 0.054101, 	Val Loss = 0.053623loss:
+0.023943728850761077
+Epoch 5, 	Batch:8, 	Train Loss = 0.050750, 	Val Loss = 0.053623loss:
+0.11752446934839009
+Epoch 5, 	Batch:9, 	Train Loss = 0.057428, 	Val Loss = 0.053623loss:
+0.08139559355936654
+Epoch 5, 	Batch:10, 	Train Loss = 0.059607, 	Val Loss = 0.053623loss:
+0.04838272235275621
+Epoch 5, 	Batch:11, 	Train Loss = 0.058671, 	Val Loss = 0.053623loss:
+0.02482006406047213
+Epoch 5, 	Batch:12, 	Train Loss = 0.056067, 	Val Loss = 0.053623loss:
+0.041710205689997656
+Epoch 5, 	Batch:13, 	Train Loss = 0.055042, 	Val Loss = 0.053623loss:
+0.0560117682429702
+Epoch 5, 	Batch:14, 	Train Loss = 0.055107, 	Val Loss = 0.053623loss:
+0.03229224049942675
+Epoch 5, 	Batch:15, 	Train Loss = 0.053681, 	Val Loss = 0.053623loss:
+0.05249382690405878
+Epoch 6, 	Batch:0, 	Train Loss = 0.052494, 	Val Loss = 0.052775loss:
+0.061039998109480444
+Epoch 6, 	Batch:1, 	Train Loss = 0.056767, 	Val Loss = 0.052775loss:
+0.03353255784160926
+Epoch 6, 	Batch:2, 	Train Loss = 0.049022, 	Val Loss = 0.052775loss:
+0.09392917148788327
+Epoch 6, 	Batch:3, 	Train Loss = 0.060249, 	Val Loss = 0.052775loss:
+0.055584468952540454
+Epoch 6, 	Batch:4, 	Train Loss = 0.059316, 	Val Loss = 0.052775loss:
+0.03024843305380372
+Epoch 6, 	Batch:5, 	Train Loss = 0.054471, 	Val Loss = 0.052775loss:
+0.056134820965673085
+Epoch 6, 	Batch:6, 	Train Loss = 0.054709, 	Val Loss = 0.052775loss:
+0.050486053680042796
+Epoch 6, 	Batch:7, 	Train Loss = 0.054181, 	Val Loss = 0.052775loss:
+0.027857729343236014
+Epoch 6, 	Batch:8, 	Train Loss = 0.051256, 	Val Loss = 0.052775loss:
+0.10678180298735458
+Epoch 6, 	Batch:9, 	Train Loss = 0.056809, 	Val Loss = 0.052775loss:
+0.0775573766934026
+Epoch 6, 	Batch:10, 	Train Loss = 0.058695, 	Val Loss = 0.052775loss:
+0.04821951476521359
+Epoch 6, 	Batch:11, 	Train Loss = 0.057822, 	Val Loss = 0.052775loss:
+0.02677223209082107
+Epoch 6, 	Batch:12, 	Train Loss = 0.055434, 	Val Loss = 0.052775loss:
+0.03577214467934369
+Epoch 6, 	Batch:13, 	Train Loss = 0.054029, 	Val Loss = 0.052775loss:
+0.05585749794820462
+Epoch 6, 	Batch:14, 	Train Loss = 0.054151, 	Val Loss = 0.052775loss:
+0.032840837716875335
+Epoch 6, 	Batch:15, 	Train Loss = 0.052819, 	Val Loss = 0.052775loss:
+0.05442699169682369
+Epoch 7, 	Batch:0, 	Train Loss = 0.054427, 	Val Loss = 0.053997loss:
+0.061391956187926436
+Epoch 7, 	Batch:1, 	Train Loss = 0.057909, 	Val Loss = 0.053997loss:
+0.030218490285055976
+Epoch 7, 	Batch:2, 	Train Loss = 0.048679, 	Val Loss = 0.053997loss:
+0.08922018560907138
+Epoch 7, 	Batch:3, 	Train Loss = 0.058814, 	Val Loss = 0.053997loss:
+0.05490344885370761
+Epoch 7, 	Batch:4, 	Train Loss = 0.058032, 	Val Loss = 0.053997loss:
+0.02886209257195225
+Epoch 7, 	Batch:5, 	Train Loss = 0.053171, 	Val Loss = 0.053997loss:
+0.05563532125301619
+Epoch 7, 	Batch:6, 	Train Loss = 0.053523, 	Val Loss = 0.053997loss:
+0.04475236362848948
+Epoch 7, 	Batch:7, 	Train Loss = 0.052426, 	Val Loss = 0.053997loss:
+0.0296415707074816
+Epoch 7, 	Batch:8, 	Train Loss = 0.049895, 	Val Loss = 0.053997loss:
+0.09704844374479168
+Epoch 7, 	Batch:9, 	Train Loss = 0.054610, 	Val Loss = 0.053997loss:
+0.06577241037761399
+Epoch 7, 	Batch:10, 	Train Loss = 0.055625, 	Val Loss = 0.053997loss:
+0.0454419398841988
+Epoch 7, 	Batch:11, 	Train Loss = 0.054776, 	Val Loss = 0.053997loss:
+0.030858361455159872
+Epoch 7, 	Batch:12, 	Train Loss = 0.052936, 	Val Loss = 0.053997loss:
+0.033711492304999945
+Epoch 7, 	Batch:13, 	Train Loss = 0.051563, 	Val Loss = 0.053997loss:
+0.05363731815351843
+Epoch 7, 	Batch:14, 	Train Loss = 0.051701, 	Val Loss = 0.053997loss:
+0.03260903997447249
+Epoch 7, 	Batch:15, 	Train Loss = 0.050508, 	Val Loss = 0.053997loss:
+0.049868305053043904
+Epoch 8, 	Batch:0, 	Train Loss = 0.049868, 	Val Loss = 0.049631loss:
+0.05759041592210391
+Epoch 8, 	Batch:1, 	Train Loss = 0.053729, 	Val Loss = 0.049631loss:
+0.02992730927097087
+Epoch 8, 	Batch:2, 	Train Loss = 0.045795, 	Val Loss = 0.049631loss:
+0.07826728099318939
+Epoch 8, 	Batch:3, 	Train Loss = 0.053913, 	Val Loss = 0.049631loss:
+0.05091640081769107
+Epoch 8, 	Batch:4, 	Train Loss = 0.053314, 	Val Loss = 0.049631loss:
+0.029245945862766166
+Epoch 8, 	Batch:5, 	Train Loss = 0.049303, 	Val Loss = 0.049631loss:
+0.05318586652851233
+Epoch 8, 	Batch:6, 	Train Loss = 0.049857, 	Val Loss = 0.049631loss:
+0.03637030560467857
+Epoch 8, 	Batch:7, 	Train Loss = 0.048171, 	Val Loss = 0.049631loss:
+0.028147098137757388
+Epoch 8, 	Batch:8, 	Train Loss = 0.045947, 	Val Loss = 0.049631loss:
+0.0870844022515674
+Epoch 8, 	Batch:9, 	Train Loss = 0.050060, 	Val Loss = 0.049631loss:
+0.05537736712320501
+Epoch 8, 	Batch:10, 	Train Loss = 0.050544, 	Val Loss = 0.049631loss:
+0.04331126034197469
+Epoch 8, 	Batch:11, 	Train Loss = 0.049941, 	Val Loss = 0.049631loss:
+0.03590110848939547
+Epoch 8, 	Batch:12, 	Train Loss = 0.048861, 	Val Loss = 0.049631loss:
+0.03500158856771015
+Epoch 8, 	Batch:13, 	Train Loss = 0.047871, 	Val Loss = 0.049631loss:
+0.050512300796409074
+Epoch 8, 	Batch:14, 	Train Loss = 0.048047, 	Val Loss = 0.049631loss:
+0.03191500464534397
+Epoch 8, 	Batch:15, 	Train Loss = 0.047039, 	Val Loss = 0.049631loss:
+0.04457693035417576
+Epoch 9, 	Batch:0, 	Train Loss = 0.044577, 	Val Loss = 0.045067loss:
+0.053855253269276114
+Epoch 9, 	Batch:1, 	Train Loss = 0.049216, 	Val Loss = 0.045067loss:
+0.02957260932380626
+Epoch 9, 	Batch:2, 	Train Loss = 0.042668, 	Val Loss = 0.045067loss:
+0.07178272211027253
+Epoch 9, 	Batch:3, 	Train Loss = 0.049947, 	Val Loss = 0.045067loss:
+0.04759550538619138
+Epoch 9, 	Batch:4, 	Train Loss = 0.049477, 	Val Loss = 0.045067loss:
+0.029334465569379835
+Epoch 9, 	Batch:5, 	Train Loss = 0.046120, 	Val Loss = 0.045067loss:
+0.050229927387716325
+Epoch 9, 	Batch:6, 	Train Loss = 0.046707, 	Val Loss = 0.045067loss:
+0.030365557777011425
+Epoch 9, 	Batch:7, 	Train Loss = 0.044664, 	Val Loss = 0.045067loss:
+0.02689369509316038
+Epoch 9, 	Batch:8, 	Train Loss = 0.042690, 	Val Loss = 0.045067loss:
+0.07594044201904024
+Epoch 9, 	Batch:9, 	Train Loss = 0.046015, 	Val Loss = 0.045067loss:
+0.04893019958932039
+Epoch 9, 	Batch:10, 	Train Loss = 0.046280, 	Val Loss = 0.045067loss:
+0.04124765478200014
+Epoch 9, 	Batch:11, 	Train Loss = 0.045860, 	Val Loss = 0.045067loss:
+0.0375818674429904
+Epoch 9, 	Batch:12, 	Train Loss = 0.045224, 	Val Loss = 0.045067loss:
+0.033182085859448915
+Epoch 9, 	Batch:13, 	Train Loss = 0.044363, 	Val Loss = 0.045067loss:
+0.04726597852399801
+Epoch 9, 	Batch:14, 	Train Loss = 0.044557, 	Val Loss = 0.045067loss:
+0.030275314668263754
+Epoch 9, 	Batch:15, 	Train Loss = 0.043664, 	Val Loss = 0.045067loss:
+0.041268584603487764
+Epoch 10, 	Batch:0, 	Train Loss = 0.041269, 	Val Loss = 0.042427loss:
+0.048524655032891995
+Epoch 10, 	Batch:1, 	Train Loss = 0.044897, 	Val Loss = 0.042427loss:
+0.028042151635548566
+Epoch 10, 	Batch:2, 	Train Loss = 0.039278, 	Val Loss = 0.042427loss:
+0.0667428590789654
+Epoch 10, 	Batch:3, 	Train Loss = 0.046145, 	Val Loss = 0.042427loss:
+0.043270409613401874
+Epoch 10, 	Batch:4, 	Train Loss = 0.045570, 	Val Loss = 0.042427loss:
+0.028223733342641038
+Epoch 10, 	Batch:5, 	Train Loss = 0.042679, 	Val Loss = 0.042427loss:
+0.042798384997714614
+Epoch 10, 	Batch:6, 	Train Loss = 0.042696, 	Val Loss = 0.042427loss:
+0.03221403503892195
+Epoch 10, 	Batch:7, 	Train Loss = 0.041386, 	Val Loss = 0.042427loss:
+0.028154501948494066
+Epoch 10, 	Batch:8, 	Train Loss = 0.039915, 	Val Loss = 0.042427loss:
+0.05570756456774756
+Epoch 10, 	Batch:9, 	Train Loss = 0.041495, 	Val Loss = 0.042427loss:
+0.04147011425749899
+Epoch 10, 	Batch:10, 	Train Loss = 0.041492, 	Val Loss = 0.042427loss:
+0.03645813493396218
+Epoch 10, 	Batch:11, 	Train Loss = 0.041073, 	Val Loss = 0.042427loss:
+0.03840728295654792
+Epoch 10, 	Batch:12, 	Train Loss = 0.040868, 	Val Loss = 0.042427loss:
+0.025242300814919162
+Epoch 10, 	Batch:13, 	Train Loss = 0.039752, 	Val Loss = 0.042427loss:
+0.04158823327631494
+Epoch 10, 	Batch:14, 	Train Loss = 0.039874, 	Val Loss = 0.042427loss:
+0.02404537859888322
+Epoch 10, 	Batch:15, 	Train Loss = 0.038885, 	Val Loss = 0.042427loss:
+0.033448087107939506
+Epoch 11, 	Batch:0, 	Train Loss = 0.033448, 	Val Loss = 0.035597loss:
+0.04664018512432895
+Epoch 11, 	Batch:1, 	Train Loss = 0.040044, 	Val Loss = 0.035597loss:
+0.022550761303796983
+Epoch 11, 	Batch:2, 	Train Loss = 0.034213, 	Val Loss = 0.035597loss:
+0.05241468696459438
+Epoch 11, 	Batch:3, 	Train Loss = 0.038763, 	Val Loss = 0.035597loss:
+0.03483979821982266
+Epoch 11, 	Batch:4, 	Train Loss = 0.037979, 	Val Loss = 0.035597loss:
+0.023302308690210057
+Epoch 11, 	Batch:5, 	Train Loss = 0.035533, 	Val Loss = 0.035597loss:
+0.03660197266199215
+Epoch 11, 	Batch:6, 	Train Loss = 0.035685, 	Val Loss = 0.035597loss:
+0.024096689096470288
+Epoch 11, 	Batch:7, 	Train Loss = 0.034237, 	Val Loss = 0.035597loss:
+0.01958830158992677
+Epoch 11, 	Batch:8, 	Train Loss = 0.032609, 	Val Loss = 0.035597loss:
+0.055065004855916755
+Epoch 11, 	Batch:9, 	Train Loss = 0.034855, 	Val Loss = 0.035597loss:
+0.0346062347868051
+Epoch 11, 	Batch:10, 	Train Loss = 0.034832, 	Val Loss = 0.035597loss:
+0.025435300754391866
+Epoch 11, 	Batch:11, 	Train Loss = 0.034049, 	Val Loss = 0.035597loss:
+0.020778389750547945
+Epoch 11, 	Batch:12, 	Train Loss = 0.033028, 	Val Loss = 0.035597loss:
+0.02030694468666986
+Epoch 11, 	Batch:13, 	Train Loss = 0.032120, 	Val Loss = 0.035597loss:
+0.030984730881775675
+Epoch 11, 	Batch:14, 	Train Loss = 0.032044, 	Val Loss = 0.035597loss:
+0.018239533606011056
+Epoch 11, 	Batch:15, 	Train Loss = 0.031181, 	Val Loss = 0.035597loss:
+0.02304962025863367
+Epoch 12, 	Batch:0, 	Train Loss = 0.023050, 	Val Loss = 0.024503loss:
+0.03202674327569943
+Epoch 12, 	Batch:1, 	Train Loss = 0.027538, 	Val Loss = 0.024503loss:
+0.014476124685688865
+Epoch 12, 	Batch:2, 	Train Loss = 0.023184, 	Val Loss = 0.024503loss:
+0.03356824084559877
+Epoch 12, 	Batch:3, 	Train Loss = 0.025780, 	Val Loss = 0.024503loss:
+0.022491836926954712
+Epoch 12, 	Batch:4, 	Train Loss = 0.025123, 	Val Loss = 0.024503loss:
+0.014716526168338748
+Epoch 12, 	Batch:5, 	Train Loss = 0.023388, 	Val Loss = 0.024503loss:
+0.01821598041907778
+Epoch 12, 	Batch:6, 	Train Loss = 0.022649, 	Val Loss = 0.024503loss:
+0.01598954231986737
+Epoch 12, 	Batch:7, 	Train Loss = 0.021817, 	Val Loss = 0.024503loss:
+0.01039339003409496
+Epoch 12, 	Batch:8, 	Train Loss = 0.020548, 	Val Loss = 0.024503loss:
+0.02348135645420594
+Epoch 12, 	Batch:9, 	Train Loss = 0.020841, 	Val Loss = 0.024503loss:
+0.01707849383504736
+Epoch 12, 	Batch:10, 	Train Loss = 0.020499, 	Val Loss = 0.024503loss:
+0.01016043966712472
+Epoch 12, 	Batch:11, 	Train Loss = 0.019637, 	Val Loss = 0.024503loss:
+0.01765350385174591
+Epoch 12, 	Batch:12, 	Train Loss = 0.019485, 	Val Loss = 0.024503loss:
+0.014004430717899682
+Epoch 12, 	Batch:13, 	Train Loss = 0.019093, 	Val Loss = 0.024503loss:
+0.01004210683025668
+Epoch 12, 	Batch:14, 	Train Loss = 0.018490, 	Val Loss = 0.024503loss:
+0.014912013400137739
+Epoch 12, 	Batch:15, 	Train Loss = 0.018266, 	Val Loss = 0.024503loss:
+0.01163779163511067
+Epoch 13, 	Batch:0, 	Train Loss = 0.011638, 	Val Loss = 0.012579loss:
+0.014469337095125958
+Epoch 13, 	Batch:1, 	Train Loss = 0.013054, 	Val Loss = 0.012579loss:
+0.017923635749446023
+Epoch 13, 	Batch:2, 	Train Loss = 0.014677, 	Val Loss = 0.012579loss:
+0.014984610736141674
+Epoch 13, 	Batch:3, 	Train Loss = 0.014754, 	Val Loss = 0.012579loss:
+0.012742222050287888
+Epoch 13, 	Batch:4, 	Train Loss = 0.014352, 	Val Loss = 0.012579loss:
+0.012465561667548664
+Epoch 13, 	Batch:5, 	Train Loss = 0.014037, 	Val Loss = 0.012579loss:
+0.012819373639563005
+Epoch 13, 	Batch:6, 	Train Loss = 0.013863, 	Val Loss = 0.012579loss:
+0.0087990745979885
+Epoch 13, 	Batch:7, 	Train Loss = 0.013230, 	Val Loss = 0.012579loss:
+0.009300910281484883
+Epoch 13, 	Batch:8, 	Train Loss = 0.012794, 	Val Loss = 0.012579loss:
+0.023672349520884355
+Epoch 13, 	Batch:9, 	Train Loss = 0.013881, 	Val Loss = 0.012579loss:
+0.01175429378772785
+Epoch 13, 	Batch:10, 	Train Loss = 0.013688, 	Val Loss = 0.012579loss:
+0.010372275478040387
+Epoch 13, 	Batch:11, 	Train Loss = 0.013412, 	Val Loss = 0.012579loss:
+0.017557238356838183
+Epoch 13, 	Batch:12, 	Train Loss = 0.013731, 	Val Loss = 0.012579loss:
+0.011872742200811175
+Epoch 13, 	Batch:13, 	Train Loss = 0.013598, 	Val Loss = 0.012579loss:
+0.010139732889283094
+Epoch 13, 	Batch:14, 	Train Loss = 0.013367, 	Val Loss = 0.012579loss:
+0.01211931460564277
+Epoch 13, 	Batch:15, 	Train Loss = 0.013289, 	Val Loss = 0.012579loss:
+0.010926054238133576
+Epoch 14, 	Batch:0, 	Train Loss = 0.010926, 	Val Loss = 0.011872loss:
+0.015524956706731008
+Epoch 14, 	Batch:1, 	Train Loss = 0.013226, 	Val Loss = 0.011872loss:
+0.011543681794049927
+Epoch 14, 	Batch:2, 	Train Loss = 0.012665, 	Val Loss = 0.011872loss:
+0.014827848156867551
+Epoch 14, 	Batch:3, 	Train Loss = 0.013206, 	Val Loss = 0.011872loss:
+0.014125691070596658
+Epoch 14, 	Batch:4, 	Train Loss = 0.013390, 	Val Loss = 0.011872loss:
+0.010856294361518014
+Epoch 14, 	Batch:5, 	Train Loss = 0.012967, 	Val Loss = 0.011872loss:
+0.011018764657681295
+Epoch 14, 	Batch:6, 	Train Loss = 0.012689, 	Val Loss = 0.011872loss:
+0.007380952816917086
+Epoch 14, 	Batch:7, 	Train Loss = 0.012026, 	Val Loss = 0.011872loss:
+0.007547598892639326
+Epoch 14, 	Batch:8, 	Train Loss = 0.011528, 	Val Loss = 0.011872loss:
+0.02481565198907803
+Epoch 14, 	Batch:9, 	Train Loss = 0.012857, 	Val Loss = 0.011872loss:
+0.008864111475068836
+Epoch 14, 	Batch:10, 	Train Loss = 0.012494, 	Val Loss = 0.011872loss:
+0.009223160466036604
+Epoch 14, 	Batch:11, 	Train Loss = 0.012221, 	Val Loss = 0.011872loss:
+0.016280571917134393
+Epoch 14, 	Batch:12, 	Train Loss = 0.012533, 	Val Loss = 0.011872loss:
+0.01136167151711063
+Epoch 14, 	Batch:13, 	Train Loss = 0.012450, 	Val Loss = 0.011872loss:
+0.008762546308523777
+Epoch 14, 	Batch:14, 	Train Loss = 0.012204, 	Val Loss = 0.011872loss:
+0.012290357629195187
+Epoch 14, 	Batch:15, 	Train Loss = 0.012209, 	Val Loss = 0.011872loss:
+0.011840019923774923
+Epoch 15, 	Batch:0, 	Train Loss = 0.011840, 	Val Loss = 0.012512loss:
+0.015851695649354968
+Epoch 15, 	Batch:1, 	Train Loss = 0.013846, 	Val Loss = 0.012512loss:
+0.010529081682047992
+Epoch 15, 	Batch:2, 	Train Loss = 0.012740, 	Val Loss = 0.012512loss:
+0.014263438861548313
+Epoch 15, 	Batch:3, 	Train Loss = 0.013121, 	Val Loss = 0.012512loss:
+0.013662845871165865
+Epoch 15, 	Batch:4, 	Train Loss = 0.013229, 	Val Loss = 0.012512loss:
+0.010979887551836476
+Epoch 15, 	Batch:5, 	Train Loss = 0.012854, 	Val Loss = 0.012512loss:
+0.009949330514071573
+Epoch 15, 	Batch:6, 	Train Loss = 0.012439, 	Val Loss = 0.012512loss:
+0.007553840464483345
+Epoch 15, 	Batch:7, 	Train Loss = 0.011829, 	Val Loss = 0.012512loss:
+0.007979728616425447
+Epoch 15, 	Batch:8, 	Train Loss = 0.011401, 	Val Loss = 0.012512loss:
+0.026004630716920874
+Epoch 15, 	Batch:9, 	Train Loss = 0.012861, 	Val Loss = 0.012512loss:
+0.009917273725475873
+Epoch 15, 	Batch:10, 	Train Loss = 0.012594, 	Val Loss = 0.012512loss:
+0.009387694444474995
+Epoch 15, 	Batch:11, 	Train Loss = 0.012327, 	Val Loss = 0.012512loss:
+0.017257210106690183
+Epoch 15, 	Batch:12, 	Train Loss = 0.012706, 	Val Loss = 0.012512loss:
+0.013860284250262414
+Epoch 15, 	Batch:13, 	Train Loss = 0.012788, 	Val Loss = 0.012512loss:
+0.007329465046959234
+Epoch 15, 	Batch:14, 	Train Loss = 0.012424, 	Val Loss = 0.012512loss:
+0.012050415833456011
+Epoch 15, 	Batch:15, 	Train Loss = 0.012401, 	Val Loss = 0.012512loss:
+0.012856029479269854
+Epoch 16, 	Batch:0, 	Train Loss = 0.012856, 	Val Loss = 0.013312loss:
+0.016618788384739073
+Epoch 16, 	Batch:1, 	Train Loss = 0.014737, 	Val Loss = 0.013312loss:
+0.0101185215631474
+Epoch 16, 	Batch:2, 	Train Loss = 0.013198, 	Val Loss = 0.013312loss:
+0.01484374761289261
+Epoch 16, 	Batch:3, 	Train Loss = 0.013609, 	Val Loss = 0.013312loss:
+0.014407662718098185
+Epoch 16, 	Batch:4, 	Train Loss = 0.013769, 	Val Loss = 0.013312loss:
+0.01125362866728485
+Epoch 16, 	Batch:5, 	Train Loss = 0.013350, 	Val Loss = 0.013312loss:
+0.010398760632901929
+Epoch 16, 	Batch:6, 	Train Loss = 0.012928, 	Val Loss = 0.013312loss:
+0.00724812826361008
+Epoch 16, 	Batch:7, 	Train Loss = 0.012218, 	Val Loss = 0.013312loss:
+0.008168188001452682
+Epoch 16, 	Batch:8, 	Train Loss = 0.011768, 	Val Loss = 0.013312loss:
+0.025542325898871975
+Epoch 16, 	Batch:9, 	Train Loss = 0.013146, 	Val Loss = 0.013312loss:
+0.009591664739163295
+Epoch 16, 	Batch:10, 	Train Loss = 0.012822, 	Val Loss = 0.013312loss:
+0.009200309403019713
+Epoch 16, 	Batch:11, 	Train Loss = 0.012521, 	Val Loss = 0.013312loss:
+0.016995742321816068
+Epoch 16, 	Batch:12, 	Train Loss = 0.012865, 	Val Loss = 0.013312loss:
+0.013146753263644659
+Epoch 16, 	Batch:13, 	Train Loss = 0.012885, 	Val Loss = 0.013312loss:
+0.0078654286870928
+Epoch 16, 	Batch:14, 	Train Loss = 0.012550, 	Val Loss = 0.013312loss:
+0.011678087817412997
+Epoch 16, 	Batch:15, 	Train Loss = 0.012496, 	Val Loss = 0.013312loss:
+0.012760370922291504
+Epoch 17, 	Batch:0, 	Train Loss = 0.012760, 	Val Loss = 0.013210loss:
+0.017262548719368997
+Epoch 17, 	Batch:1, 	Train Loss = 0.015011, 	Val Loss = 0.013210loss:
+0.009800068042806389
+Epoch 17, 	Batch:2, 	Train Loss = 0.013274, 	Val Loss = 0.013210loss:
+0.01539550548096815
+Epoch 17, 	Batch:3, 	Train Loss = 0.013805, 	Val Loss = 0.013210loss:
+0.014577741543345287
+Epoch 17, 	Batch:4, 	Train Loss = 0.013959, 	Val Loss = 0.013210loss:
+0.011373085948987918
+Epoch 17, 	Batch:5, 	Train Loss = 0.013528, 	Val Loss = 0.013210loss:
+0.010015360190973236
+Epoch 17, 	Batch:6, 	Train Loss = 0.013026, 	Val Loss = 0.013210loss:
+0.007477658468929884
+Epoch 17, 	Batch:7, 	Train Loss = 0.012333, 	Val Loss = 0.013210loss:
+0.008293967577996962
+Epoch 17, 	Batch:8, 	Train Loss = 0.011884, 	Val Loss = 0.013210loss:
+0.025561138506566446
+Epoch 17, 	Batch:9, 	Train Loss = 0.013252, 	Val Loss = 0.013210loss:
+0.010439194187170129
+Epoch 17, 	Batch:10, 	Train Loss = 0.012996, 	Val Loss = 0.013210loss:
+0.009083358206266011
+Epoch 17, 	Batch:11, 	Train Loss = 0.012670, 	Val Loss = 0.013210loss:
+0.016793427589334175
+Epoch 17, 	Batch:12, 	Train Loss = 0.012987, 	Val Loss = 0.013210loss:
+0.014010973819263708
+Epoch 17, 	Batch:13, 	Train Loss = 0.013060, 	Val Loss = 0.013210loss:
+0.007768938196302397
+Epoch 17, 	Batch:14, 	Train Loss = 0.012708, 	Val Loss = 0.013210loss:
+0.011602775701762612
+Epoch 17, 	Batch:15, 	Train Loss = 0.012639, 	Val Loss = 0.013210loss:
+0.01263252451848138
+Epoch 18, 	Batch:0, 	Train Loss = 0.012633, 	Val Loss = 0.013058loss:
+0.01739261514468257
+Epoch 18, 	Batch:1, 	Train Loss = 0.015013, 	Val Loss = 0.013058loss:
+0.009748532531394832
+Epoch 18, 	Batch:2, 	Train Loss = 0.013258, 	Val Loss = 0.013058loss:
+0.015465976411946617
+Epoch 18, 	Batch:3, 	Train Loss = 0.013810, 	Val Loss = 0.013058loss:
+0.014642187408344328
+Epoch 18, 	Batch:4, 	Train Loss = 0.013976, 	Val Loss = 0.013058loss:
+0.011379624230288874
+Epoch 18, 	Batch:5, 	Train Loss = 0.013544, 	Val Loss = 0.013058loss:
+0.010163012193692561
+Epoch 18, 	Batch:6, 	Train Loss = 0.013061, 	Val Loss = 0.013058loss:
+0.007520686633443625
+Epoch 18, 	Batch:7, 	Train Loss = 0.012368, 	Val Loss = 0.013058loss:
+0.00830909337422381
+Epoch 18, 	Batch:8, 	Train Loss = 0.011917, 	Val Loss = 0.013058loss:
+0.025051494329133422
+Epoch 18, 	Batch:9, 	Train Loss = 0.013231, 	Val Loss = 0.013058loss:
+0.010430481758010016
+Epoch 18, 	Batch:10, 	Train Loss = 0.012976, 	Val Loss = 0.013058loss:
+0.008871082416133342
+Epoch 18, 	Batch:11, 	Train Loss = 0.012634, 	Val Loss = 0.013058loss:
+0.016653760565861354
+Epoch 18, 	Batch:12, 	Train Loss = 0.012943, 	Val Loss = 0.013058loss:
+0.013756477940342982
+Epoch 18, 	Batch:13, 	Train Loss = 0.013001, 	Val Loss = 0.013058loss:
+0.00797358129138959
+Epoch 18, 	Batch:14, 	Train Loss = 0.012666, 	Val Loss = 0.013058loss:
+0.011348090488206976
+Epoch 18, 	Batch:15, 	Train Loss = 0.012584, 	Val Loss = 0.013058loss:
+0.012390792421426681
+Epoch 19, 	Batch:0, 	Train Loss = 0.012391, 	Val Loss = 0.012805loss:
+0.017541288894601957
+Epoch 19, 	Batch:1, 	Train Loss = 0.014966, 	Val Loss = 0.012805loss:
+0.009702074438758729
+Epoch 19, 	Batch:2, 	Train Loss = 0.013211, 	Val Loss = 0.012805loss:
+0.01568036835192154
+Epoch 19, 	Batch:3, 	Train Loss = 0.013829, 	Val Loss = 0.012805loss:
+0.014625575578656642
+Epoch 19, 	Batch:4, 	Train Loss = 0.013988, 	Val Loss = 0.012805loss:
+0.011375185264199767
+Epoch 19, 	Batch:5, 	Train Loss = 0.013553, 	Val Loss = 0.012805loss:
+0.01016948649368524
+Epoch 19, 	Batch:6, 	Train Loss = 0.013069, 	Val Loss = 0.012805loss:
+0.007618369635405617
+Epoch 19, 	Batch:7, 	Train Loss = 0.012388, 	Val Loss = 0.012805loss:
+0.008318516054276262
+Epoch 19, 	Batch:8, 	Train Loss = 0.011936, 	Val Loss = 0.012805loss:
+0.024135716790364227
+Epoch 19, 	Batch:9, 	Train Loss = 0.013156, 	Val Loss = 0.012805loss:
+0.01070764853258668
+Epoch 19, 	Batch:10, 	Train Loss = 0.012933, 	Val Loss = 0.012805loss:
+0.008595440051367928
+Epoch 19, 	Batch:11, 	Train Loss = 0.012572, 	Val Loss = 0.012805loss:
+0.016273358378733845
+Epoch 19, 	Batch:12, 	Train Loss = 0.012856, 	Val Loss = 0.012805loss:
+0.013699352921861469
+Epoch 19, 	Batch:13, 	Train Loss = 0.012917, 	Val Loss = 0.012805loss:
+0.007987151823814986
+Epoch 19, 	Batch:14, 	Train Loss = 0.012588, 	Val Loss = 0.012805loss:
+0.011168411717252202
+Epoch 19, 	Batch:15, 	Train Loss = 0.012499, 	Val Loss = 0.012805loss:
+0.01212390179926308
+Epoch 20, 	Batch:0, 	Train Loss = 0.012124, 	Val Loss = 0.012539loss:
+0.01751685980733377
+Epoch 20, 	Batch:1, 	Train Loss = 0.014820, 	Val Loss = 0.012539loss:
+0.009565707197463903
+Epoch 20, 	Batch:2, 	Train Loss = 0.013069, 	Val Loss = 0.012539loss:
+0.01573885619707064
+Epoch 20, 	Batch:3, 	Train Loss = 0.013736, 	Val Loss = 0.012539loss:
+0.014492083594841517
+Epoch 20, 	Batch:4, 	Train Loss = 0.013887, 	Val Loss = 0.012539loss:
+0.011228904968721264
+Epoch 20, 	Batch:5, 	Train Loss = 0.013444, 	Val Loss = 0.012539loss:
+0.010163071487340082
+Epoch 20, 	Batch:6, 	Train Loss = 0.012976, 	Val Loss = 0.012539loss:
+0.007671802987791708
+Epoch 20, 	Batch:7, 	Train Loss = 0.012313, 	Val Loss = 0.012539loss:
+0.008300476855009361
+Epoch 20, 	Batch:8, 	Train Loss = 0.011867, 	Val Loss = 0.012539loss:
+0.023618331149689635
+Epoch 20, 	Batch:9, 	Train Loss = 0.013042, 	Val Loss = 0.012539loss:
+0.010805315116311866
+Epoch 20, 	Batch:10, 	Train Loss = 0.012839, 	Val Loss = 0.012539loss:
+0.008553444644060538
+Epoch 20, 	Batch:11, 	Train Loss = 0.012482, 	Val Loss = 0.012539loss:
+0.016157908143505387
+Epoch 20, 	Batch:12, 	Train Loss = 0.012764, 	Val Loss = 0.012539loss:
+0.013542384356938256
+Epoch 20, 	Batch:13, 	Train Loss = 0.012820, 	Val Loss = 0.012539loss:
+0.008026931648462998
+Epoch 20, 	Batch:14, 	Train Loss = 0.012500, 	Val Loss = 0.012539loss:
+0.01109402405471326
+Epoch 20, 	Batch:15, 	Train Loss = 0.012413, 	Val Loss = 0.012539loss:
+0.011971740811496195
+Epoch 21, 	Batch:0, 	Train Loss = 0.011972, 	Val Loss = 0.012380loss:
+0.01751563524849182
+Epoch 21, 	Batch:1, 	Train Loss = 0.014744, 	Val Loss = 0.012380loss:
+0.009494630648120558
+Epoch 21, 	Batch:2, 	Train Loss = 0.012994, 	Val Loss = 0.012380loss:
+0.015913653290504648
+Epoch 21, 	Batch:3, 	Train Loss = 0.013724, 	Val Loss = 0.012380loss:
+0.014523334994606169
+Epoch 21, 	Batch:4, 	Train Loss = 0.013884, 	Val Loss = 0.012380loss:
+0.011099277119639388
+Epoch 21, 	Batch:5, 	Train Loss = 0.013420, 	Val Loss = 0.012380loss:
+0.010150229925143228
+Epoch 21, 	Batch:6, 	Train Loss = 0.012953, 	Val Loss = 0.012380loss:
+0.007732404519818485
+Epoch 21, 	Batch:7, 	Train Loss = 0.012300, 	Val Loss = 0.012380loss:
+0.008335526538507776
+Epoch 21, 	Batch:8, 	Train Loss = 0.011860, 	Val Loss = 0.012380loss:
+0.022854608010679723
+Epoch 21, 	Batch:9, 	Train Loss = 0.012959, 	Val Loss = 0.012380loss:
+0.010831574010596364
+Epoch 21, 	Batch:10, 	Train Loss = 0.012766, 	Val Loss = 0.012380loss:
+0.008506172583139245
+Epoch 21, 	Batch:11, 	Train Loss = 0.012411, 	Val Loss = 0.012380loss:
+0.01601898229321366
+Epoch 21, 	Batch:12, 	Train Loss = 0.012688, 	Val Loss = 0.012380loss:
+0.013270673110625955
+Epoch 21, 	Batch:13, 	Train Loss = 0.012730, 	Val Loss = 0.012380loss:
+0.008010916175703615
+Epoch 21, 	Batch:14, 	Train Loss = 0.012415, 	Val Loss = 0.012380loss:
+0.011059247587303058
+Epoch 21, 	Batch:15, 	Train Loss = 0.012331, 	Val Loss = 0.012380loss:
+0.011856406044333485
+Epoch 22, 	Batch:0, 	Train Loss = 0.011856, 	Val Loss = 0.012263loss:
+0.01750688864702615
+Epoch 22, 	Batch:1, 	Train Loss = 0.014682, 	Val Loss = 0.012263loss:
+0.00937406465965314
+Epoch 22, 	Batch:2, 	Train Loss = 0.012912, 	Val Loss = 0.012263loss:
+0.016015734308924435
+Epoch 22, 	Batch:3, 	Train Loss = 0.013688, 	Val Loss = 0.012263loss:
+0.014535851929537852
+Epoch 22, 	Batch:4, 	Train Loss = 0.013858, 	Val Loss = 0.012263loss:
+0.010965092237981994
+Epoch 22, 	Batch:5, 	Train Loss = 0.013376, 	Val Loss = 0.012263loss:
+0.010096068422410811
+Epoch 22, 	Batch:6, 	Train Loss = 0.012907, 	Val Loss = 0.012263loss:
+0.007764491747927908
+Epoch 22, 	Batch:7, 	Train Loss = 0.012264, 	Val Loss = 0.012263loss:
+0.00834976203098684
+Epoch 22, 	Batch:8, 	Train Loss = 0.011829, 	Val Loss = 0.012263loss:
+0.022471986485723475
+Epoch 22, 	Batch:9, 	Train Loss = 0.012894, 	Val Loss = 0.012263loss:
+0.01082592738907417
+Epoch 22, 	Batch:10, 	Train Loss = 0.012706, 	Val Loss = 0.012263loss:
+0.008553785025510966
+Epoch 22, 	Batch:11, 	Train Loss = 0.012360, 	Val Loss = 0.012263loss:
+0.016015830692663977
+Epoch 22, 	Batch:12, 	Train Loss = 0.012641, 	Val Loss = 0.012263loss:
+0.013124818817247964
+Epoch 22, 	Batch:13, 	Train Loss = 0.012675, 	Val Loss = 0.012263loss:
+0.008000241630456567
+Epoch 22, 	Batch:14, 	Train Loss = 0.012364, 	Val Loss = 0.012263loss:
+0.011059417140617724
+Epoch 22, 	Batch:15, 	Train Loss = 0.012282, 	Val Loss = 0.012263loss:
+0.011818367115906293
+Epoch 23, 	Batch:0, 	Train Loss = 0.011818, 	Val Loss = 0.012220loss:
+0.017536965612826125
+Epoch 23, 	Batch:1, 	Train Loss = 0.014678, 	Val Loss = 0.012220loss:
+0.009302000982623687
+Epoch 23, 	Batch:2, 	Train Loss = 0.012886, 	Val Loss = 0.012220loss:
+0.01609787083820536
+Epoch 23, 	Batch:3, 	Train Loss = 0.013689, 	Val Loss = 0.012220loss:
+0.014625345657215811
+Epoch 23, 	Batch:4, 	Train Loss = 0.013876, 	Val Loss = 0.012220loss:
+0.010915544424705284
+Epoch 23, 	Batch:5, 	Train Loss = 0.013383, 	Val Loss = 0.012220loss:
+0.010078447548902287
+Epoch 23, 	Batch:6, 	Train Loss = 0.012911, 	Val Loss = 0.012220loss:
+0.007768094100272402
+Epoch 23, 	Batch:7, 	Train Loss = 0.012268, 	Val Loss = 0.012220loss:
+0.008372275550594423
+Epoch 23, 	Batch:8, 	Train Loss = 0.011835, 	Val Loss = 0.012220loss:
+0.02206163634410038
+Epoch 23, 	Batch:9, 	Train Loss = 0.012858, 	Val Loss = 0.012220loss:
+0.010755329564999968
+Epoch 23, 	Batch:10, 	Train Loss = 0.012667, 	Val Loss = 0.012220loss:
+0.0085701630284031
+Epoch 23, 	Batch:11, 	Train Loss = 0.012325, 	Val Loss = 0.012220loss:
+0.01600127789452547
+Epoch 23, 	Batch:12, 	Train Loss = 0.012608, 	Val Loss = 0.012220loss:
+0.012936775624293162
+Epoch 23, 	Batch:13, 	Train Loss = 0.012631, 	Val Loss = 0.012220loss:
+0.008007016548816805
+Epoch 23, 	Batch:14, 	Train Loss = 0.012323, 	Val Loss = 0.012220loss:
+0.011020100033085673
+Epoch 23, 	Batch:15, 	Train Loss = 0.012242, 	Val Loss = 0.012220loss:
+0.011781833839640647
+Epoch 24, 	Batch:0, 	Train Loss = 0.011782, 	Val Loss = 0.012180loss:
+0.0176258199449883
+Epoch 24, 	Batch:1, 	Train Loss = 0.014704, 	Val Loss = 0.012180loss:
+0.009246340065088248
+Epoch 24, 	Batch:2, 	Train Loss = 0.012885, 	Val Loss = 0.012180loss:
+0.016110236200016642
+Epoch 24, 	Batch:3, 	Train Loss = 0.013691, 	Val Loss = 0.012180loss:
+0.014662792000313573
+Epoch 24, 	Batch:4, 	Train Loss = 0.013885, 	Val Loss = 0.012180loss:
+0.0109253558167281
+Epoch 24, 	Batch:5, 	Train Loss = 0.013392, 	Val Loss = 0.012180loss:
+0.010088852883734645
+Epoch 24, 	Batch:6, 	Train Loss = 0.012920, 	Val Loss = 0.012180loss:
+0.007770915783164738
+Epoch 24, 	Batch:7, 	Train Loss = 0.012277, 	Val Loss = 0.012180loss:
+0.008353006595623257
+Epoch 24, 	Batch:8, 	Train Loss = 0.011841, 	Val Loss = 0.012180loss:
+0.021873139674007676
+Epoch 24, 	Batch:9, 	Train Loss = 0.012844, 	Val Loss = 0.012180loss:
+0.010712347508048763
+Epoch 24, 	Batch:10, 	Train Loss = 0.012650, 	Val Loss = 0.012180loss:
+0.008585067885608678
+Epoch 24, 	Batch:11, 	Train Loss = 0.012311, 	Val Loss = 0.012180loss:
+0.015986483255896338
+Epoch 24, 	Batch:12, 	Train Loss = 0.012594, 	Val Loss = 0.012180loss:
+0.01283831219489795
+Epoch 24, 	Batch:13, 	Train Loss = 0.012611, 	Val Loss = 0.012180loss:
+0.00803635120962059
+Epoch 24, 	Batch:14, 	Train Loss = 0.012306, 	Val Loss = 0.012180loss:
+0.01094870921917242
+Epoch 24, 	Batch:15, 	Train Loss = 0.012222, 	Val Loss = 0.012180loss:
+0.01174505441739113
+Epoch 25, 	Batch:0, 	Train Loss = 0.011745, 	Val Loss = 0.012137loss:
+0.017751132333437638
+Epoch 25, 	Batch:1, 	Train Loss = 0.014748, 	Val Loss = 0.012137loss:
+0.009232321942713125
+Epoch 25, 	Batch:2, 	Train Loss = 0.012910, 	Val Loss = 0.012137loss:
+0.01608351837514918
+Epoch 25, 	Batch:3, 	Train Loss = 0.013703, 	Val Loss = 0.012137loss:
+0.01467114625569815
+Epoch 25, 	Batch:4, 	Train Loss = 0.013897, 	Val Loss = 0.012137loss:
+0.010998626920133158
+Epoch 25, 	Batch:5, 	Train Loss = 0.013414, 	Val Loss = 0.012137loss:
+0.010141278696149654
+Epoch 25, 	Batch:6, 	Train Loss = 0.012946, 	Val Loss = 0.012137loss:
+0.007777808981546043
+Epoch 25, 	Batch:7, 	Train Loss = 0.012300, 	Val Loss = 0.012137loss:
+0.00830897292529438
+Epoch 25, 	Batch:8, 	Train Loss = 0.011857, 	Val Loss = 0.012137loss:
+0.02174117706190093
+Epoch 25, 	Batch:9, 	Train Loss = 0.012845, 	Val Loss = 0.012137loss:
+0.010689678708897669
+Epoch 25, 	Batch:10, 	Train Loss = 0.012649, 	Val Loss = 0.012137loss:
+0.00854968290725772
+Epoch 25, 	Batch:11, 	Train Loss = 0.012308, 	Val Loss = 0.012137loss:
+0.015933480292649953
+Epoch 25, 	Batch:12, 	Train Loss = 0.012586, 	Val Loss = 0.012137loss:
+0.012755498888106048
+Epoch 25, 	Batch:13, 	Train Loss = 0.012599, 	Val Loss = 0.012137loss:
+0.008079062229894652
+Epoch 25, 	Batch:14, 	Train Loss = 0.012297, 	Val Loss = 0.012137loss:
+0.010803570989357001
+Epoch 25, 	Batch:15, 	Train Loss = 0.012204, 	Val Loss = 0.012137loss:
+0.011671933259092018
+Epoch 26, 	Batch:0, 	Train Loss = 0.011672, 	Val Loss = 0.012059loss:
+0.017939743686422205
+Epoch 26, 	Batch:1, 	Train Loss = 0.014806, 	Val Loss = 0.012059loss:
+0.009246715065695212
+Epoch 26, 	Batch:2, 	Train Loss = 0.012953, 	Val Loss = 0.012059loss:
+0.016025534113970556
+Epoch 26, 	Batch:3, 	Train Loss = 0.013721, 	Val Loss = 0.012059loss:
+0.01460510902351173
+Epoch 26, 	Batch:4, 	Train Loss = 0.013898, 	Val Loss = 0.012059loss:
+0.011112113254960997
+Epoch 26, 	Batch:5, 	Train Loss = 0.013434, 	Val Loss = 0.012059loss:
+0.0102359800554486
+Epoch 26, 	Batch:6, 	Train Loss = 0.012977, 	Val Loss = 0.012059loss:
+0.00781434140389895
+Epoch 26, 	Batch:7, 	Train Loss = 0.012331, 	Val Loss = 0.012059loss:
+0.00822498163192222
+Epoch 26, 	Batch:8, 	Train Loss = 0.011875, 	Val Loss = 0.012059loss:
+0.02167059726512006
+Epoch 26, 	Batch:9, 	Train Loss = 0.012855, 	Val Loss = 0.012059loss:
+0.010760729887154062
+Epoch 26, 	Batch:10, 	Train Loss = 0.012664, 	Val Loss = 0.012059loss:
+0.008454184748864028
+Epoch 26, 	Batch:11, 	Train Loss = 0.012313, 	Val Loss = 0.012059loss:
+0.01582186170840879
+Epoch 26, 	Batch:12, 	Train Loss = 0.012583, 	Val Loss = 0.012059loss:
+0.01272882034822977
+Epoch 26, 	Batch:13, 	Train Loss = 0.012594, 	Val Loss = 0.012059loss:
+0.008140771799412968
+Epoch 26, 	Batch:14, 	Train Loss = 0.012297, 	Val Loss = 0.012059loss:
+0.01060477984758423
+Epoch 26, 	Batch:15, 	Train Loss = 0.012191, 	Val Loss = 0.012059
+Early stop at epoch 25 for plateau
+
+
+---------------------------------------------------------------------------
+job finished

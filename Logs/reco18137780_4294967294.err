@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/reconstruction_fidelity.py", line 157, in <module>
+    main()
+  File "/leonardo/home/userexternal/forazi00/Dim_red_swap_Leo/reconstruction_fidelity.py", line 33, in main
+    for subfolder in os.listdir(emd_fold):
+                     ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'out_em3'

@@ -39,11 +39,12 @@ class Axutoencoder():
         self.__n_qubit_trash = n_qubit_trash
         self.__n_qubit=n_qubit_autoencoder+n_qubit_trash
         self.dev=device
+        self.__loss_name=loss_name
+
         self.__setup()
         self.__circ = circ
         self.__num_params= self.__circuits[circ]['n_par'](n_qubit_autoencoder)
         self.__set_weights =None
-        self.__loss_name=loss_name
         #set parameter to random values for the first stage and 0 to all the following
         # self.__wq=[np.array([random.uniform(0, np.pi) for _ in range(self.__num_params_stages[0])]+[0]*(self.__num_params-self.__num_params_stages[0]), requires_grad=True)]
         # print(f'the device has {len(device.wires)} qubits')
