@@ -26,7 +26,8 @@ def set_global( num_input_qubits,
                 operator_support_probs,
                 operator_translation_invariance_Q,
                 operator_support_max_range,
-                use_jax=True):
+                use_jax=True,
+                operators=['x', 'y', 'z']):
     global system_params
     global vae_dev_mixed_input
     global vae_dev_mixed_middle
@@ -39,7 +40,8 @@ def set_global( num_input_qubits,
                    'operator_support_probs':operator_support_probs,
                    'operator_translation_invariance_Q':operator_translation_invariance_Q,
                    'operator_support_max_range':operator_support_max_range,
-                   'use_jax_Q':use_jax}
+                   'use_jax_Q':use_jax,
+                   'operators':operators}
     
     vae_dev_mixed_input = qml.device('default.mixed', wires=system_params['num_input_qubits'])
     # vae_dev_mixed_middle = qml.device('default.mixed', wires=system_params['middle_qubits'])
@@ -74,7 +76,7 @@ def sites_to_site_op(sites):
         if ind == len(sites[0]):
             return sites
         return sites_to_site_op_iterative_fn([s[:ind] + [(s[ind], op)] + s[(ind+1):]
-                                             for s in sites for op in ['z']],#['x', 'y', 'z']],
+                                             for s in sites for op in system_params['operators']],#['x', 'y', 'z']],
                                              ind+1)
     return sites_to_site_op_iterative_fn(sites, 0)
     # Tested and works
